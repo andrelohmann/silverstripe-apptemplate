@@ -1,0 +1,126 @@
+hr:
+  AssetAdmin:
+    NEWFOLDER: Novi direktorij
+  AssetTableField:
+    CREATED: 'Uploadano'
+    DIM: Dimenzije
+    FILENAME: Ime datoteke
+    LASTEDIT: 'Zadnja promjena'
+    OWNER: Vlasnik
+    SIZE: 'Veličina'
+    TITLE: Naslov
+    TYPE: 'Tip'
+  BasicAuth:
+    ENTERINFO: 'Unesite korisničko ime i lozinu'
+    ERRORNOTADMIN: 'Korisnik nije administrator'
+    ERRORNOTREC: 'Korisničko ime / lozinka nije prepoznata'
+  CMSMain:
+    SAVE: Snimi
+  ChangePasswordEmail_ss:
+    CHANGEPASSWORDTEXT1: 'Promjenili ste lozinku za '
+    CHANGEPASSWORDTEXT2: 'Za prijavu koristite slijedeće podatke'
+    HELLO: Pozdrav
+  ConfirmedPasswordField:
+    SHOWONCLICKTITLE: 'Promjeni Lozinku'
+  DataObject:
+    PLURALNAME: 'Podatkovni Objekti'
+    SINGULARNAME: 'Podatkovni Objekt'
+  DropdownField:
+    CHOOSE: (Odaberi)
+  File:
+    PLURALNAME: Datoteke
+    SINGULARNAME: Datoteka
+  ForgotPasswordEmail_ss:
+    HELLO: Pozdrav
+    TEXT1: 'Ovdje je vaš'
+    TEXT2: 'link za resetiranje zaporke'
+    TEXT3: za
+  Form:
+    VALIDATIONNOTUNIQUE: 'Unesena vrijednost nije unikatna'
+    VALIDATIONPASSWORDSDONTMATCH: 'Lozine se ne slažu'
+    VALIDATIONPASSWORDSNOTEMPTY: 'Lozinke moraju imati najmanje jedan broj i jedan alfanumerički znak'
+  Group:
+    Code: 'Krupni kod'
+    Locked: 'Zaključano?'
+    Parent: 'Roditeljska grupa'
+    has_many_Permissions: Dozvole
+    many_many_Members: Članovi
+  HtmlEditorField:
+    BUTTONINSERTLINK: 'Ubaci vezu'
+    BUTTONREMOVELINK: 'Obriši vezu'
+    CSSCLASS: 'Poravnanje / Stil'
+    CSSCLASSCENTER: 'Centralno'
+    CSSCLASSLEFT: 'Lijevo, sa okruženjem teksta.'
+    CSSCLASSRIGHT: 'Desno, sa okruženjem teksta'
+    EMAIL: 'Email adresa'
+    FILE: Datoteka
+    FOLDER: Direktorij
+    IMAGEDIMENSIONS: Dimenzije
+    IMAGEHEIGHTPX: Visina
+    IMAGEWIDTHPX: Širina
+    LINK: 'Ubaci/editiraj link za označeni tekst'
+    LINKDESCR: 'Opis veze'
+    LINKEMAIL: 'Email adresa'
+    LINKEXTERNAL: 'Na drugom webu'
+    LINKFILE: 'Downlad datoteke'
+    LINKINTERNAL: 'Stranicu na ovom webu'
+    LINKOPENNEWWIN: 'Otvori vezu (link) u novom prozoru?'
+    LINKTO: 'Poveži na'
+    PAGE: Stranica
+  Image_iframe_ss:
+    TITLE: 'Iframe za upload slike'
+  LeftAndMain:
+    HELP: Pomoć
+    PAGETYPE: 'Tip Stranice:'
+    PERMAGAIN: 'Odjavili ste se sa CMS-a. Želite li se ponovno prijaviti, upišite korisničko ime i lozinku'
+    PERMALREADY: 'Nažalost, ne možete pristupiti tom dijelu CMS-a. Želite li se prijaviti kao netko drugi, učinite to ispod'
+    PERMDEFAULT: 'Odaberite metodu autorizacije te upišite svoje podatke za pristup CMS-u.'
+    PLEASESAVE: 'Molim spremite stranicu: Nemože biti ažurirano dok nije spremljeno.'
+  Member:
+    BUTTONCHANGEPASSWORD: 'Promjeni lozinku'
+    BUTTONLOGIN: 'Prijavi'
+    BUTTONLOGINOTHER: 'Prijavite se kao netko drugi'
+    BUTTONLOSTPASSWORD: 'Zaboraljena lozinka'
+    CONFIRMNEWPASSWORD: 'Potvrdite novu lozinku'
+    CONFIRMPASSWORD: 'Potvrdi lozinku'
+    ERRORNEWPASSWORD: 'Pogrečno ste upisali novu lozinku, pokušajte ponovno'
+    ERRORPASSWORDNOTMATCH: 'Vaša trenutna lozinka se ne podudara, probajte ponovno'
+    FIRSTNAME: 'Ime'
+    INTERFACELANG: 'Jezik sučelja'
+    NEWPASSWORD: 'Nova lozinka'
+    PASSWORD: Lozinka
+    PLURALNAME: Članovi
+    REMEMBERME: 'Zapamti me'
+    SINGULARNAME: Član
+    SUBJECTPASSWORDCHANGED: 'Vaša lozinka je promjenjena'
+    SUBJECTPASSWORDRESET: 'Link za reset lozinke'
+    SURNAME: Prezime
+    VALIDATIONMEMBEREXISTS: 'Već postoji korisnik sa tim Emailom'
+    YOUROLDPASSWORD: 'Stara lozinka'
+    belongs_many_many_Groups: Grupe
+    db_LockedOutUntil: 'Zaključano do'
+    db_PasswordExpiry: 'Lozinka ističe'
+  MemberAuthenticator:
+    TITLE: 'E-mail &amp; Lozinka'
+  PhoneNumberField:
+    VALIDATION: 'Molim unesite ispravan telefonski broj'
+  Security:
+    ALREADYLOGGEDIN: 'Nemate pristup na ovu stranicu. Imate li drugi korisnički račun, koristite njega'
+    BUTTONSEND: 'Pošalji mi link za reset lozinke'
+    CHANGEPASSWORDBELOW: 'Svoju lozinku možete promjeniti ovdje'
+    CHANGEPASSWORDHEADER: 'Promjeni lozinku'
+    ENTERNEWPASSWORD: 'Upišite novu lozinku'
+    ERRORPASSWORDPERMISSION: 'Morate biti prijavljeni kako bi ste promjenili lozinku'
+    LOGGEDOUT: 'Odlogirani ste. Želite li se ponovno logirati, upišite podatke'
+    LOGIN: 'Logiraj se'
+    NOTEPAGESECURED: 'Stranica je osigurana. Upišite svoje podatke i poslat ćemo Vam.'
+    NOTERESETPASSWORD: 'Upišite vaš e-mail i polati ćemo Vam link na kojem možete dobiti novu lozinku'
+  SecurityAdmin:
+    NEWGROUP: 'Nova Grupa'
+  SiteTree:
+    TABMAIN: '''Main'''
+  ToggleField:
+    LESS: manje
+    MORE: više
+  Versioned:
+    has_many_Versions: Verzije

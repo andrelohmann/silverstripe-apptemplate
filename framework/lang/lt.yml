@@ -1,0 +1,181 @@
+lt:
+  BBCodeParser:
+    ALIGNEMENT: Lygiavimas
+    ALIGNEMENTEXAMPLE: 'sulygiuota pagal dešinę'
+    BOLD: 'Pastorintas tekstas'
+    BOLDEXAMPLE: Pastorinta
+    CODE: 'Kodo blokas'
+    CODEDESCRIPTION: 'Nesuformatuotas kodo blokas'
+    CODEEXAMPLE: 'Kodo blokas'
+    COLORED: 'Spalvotas tekstas'
+    COLOREDEXAMPLE: 'mėlynas tekstas'
+    EMAILLINK: 'E. pašto nuoroda'
+    EMAILLINKDESCRIPTION: 'Sukurti nuorodą į e. paštą'
+    IMAGE: Paveikslėlis
+    IMAGEDESCRIPTION: 'Rodyti paveikslėlį mano skelbime'
+    ITALIC: 'Italic tekstas'
+    LINK: 'Puslapio nuoroda'
+    LINKDESCRIPTION: 'Nuoroda į kitą svetainę ar URL adresą'
+    STRUCK: 'Struck-out tekstas'
+    UNDERLINE: 'Pabrauktas tekstas'
+    UNDERLINEEXAMPLE: Pabraukta
+    UNORDERED: 'Nerūšiuotas sąrašas'
+    UNORDEREDDESCRIPTION: 'Nerūšiuotas sąrašas'
+    UNORDEREDEXAMPLE1: 'nerūšiuota prekė 1'
+  BasicAuth:
+    ENTERINFO: 'Įveskite vartotojo vardą ir slaptažodį'
+    ERRORNOTADMIN: 'Vartotojas nėra administratorius'
+    ERRORNOTREC: 'Toks vartotojo vardas / slaptažodis neatpažintas'
+  Boolean:
+    ANY: Bet koks
+  CMSMain:
+    SAVE: Išsaugoti
+  ChangePasswordEmail_ss:
+    CHANGEPASSWORDTEXT1: 'Jūs pakeitėte slaptažodį'
+    CHANGEPASSWORDTEXT2: 'Nuo šiol galite naudoti šiuos prisijungimo duomenis:'
+    EMAIL: E. paštas
+    HELLO: Sveiki
+    PASSWORD: Slaptažodis
+  ConfirmedPasswordField:
+    SHOWONCLICKTITLE: 'Pakeisti slaptažodį'
+  CreditCardField:
+    FIRST: pirmas
+    FOURTH: ketvirtas
+    SECOND: antras
+    THIRD: trečias
+  DataObject:
+    PLURALNAME: 'Duomenų objektai'
+    SINGULARNAME: 'Duomenų objektas'
+  DateField:
+    NOTSET: 'nenustatyta'
+    TODAY: šiandien
+  DropdownField:
+    CHOOSE: (Pasirinkti)
+  Enum:
+    ANY: Bet koks
+  File:
+    Content: Turinys
+    Filename: Bylos pavadinimas
+    NOFILESIZE: 'Bylos dydis 0 baitų.'
+    NOVALIDUPLOAD: 'Failas netinkamas įdėjimui'
+    Name: Vardas
+    PLURALNAME: Bylos
+    SINGULARNAME: Byla
+    Title: Pavadinimas
+  ForgotPasswordEmail_ss:
+    HELLO: Sveiki
+    TEXT1: 'Štai Jūsų'
+    TEXT2: 'slaptažodžio atstatymo nuoroda'
+    TEXT3: kam
+  Form:
+    VALIDATIONNOTUNIQUE: 'Įvesta reikšmė nėra unikali'
+    VALIDATIONPASSWORDSDONTMATCH: 'Nesutampa slaptažodžiai'
+    VALIDATIONPASSWORDSNOTEMPTY: 'Slaptažodžiai negali būti tušti'
+    VALIDATOR: Tikrintojas
+  FormField:
+    NONE: niekas
+  Group:
+    Code: 'Grupės kodas'
+    Description: Aprašymas
+    Locked: 'Užrakinta?'
+    Parent: 'Priklauso grupei'
+    Sort: 'Rūšiavimo tvarka'
+    has_many_Permissions: Leidimai
+    many_many_Members: Nariai
+  HtmlEditorField:
+    ANCHORVALUE: Pagrindinis
+    BUTTONINSERTLINK: 'Įterpti nuorodą'
+    BUTTONREMOVELINK: 'Pašalinti nuorodą'
+    CAPTIONTEXT: 'Pavadinimo tekstas'
+    CSSCLASS: 'Lygiavimas / stilius'
+    CSSCLASSCENTER: 'Centruotas, be nieko.'
+    CSSCLASSLEFT: 'Kairėje, su tekstu aplink.'
+    CSSCLASSLEFTALONE: 'Kairėje, savaiminis.'
+    CSSCLASSRIGHT: 'Dešinėje, su tekstu aplink.'
+    EMAIL: 'E. pašto adresas'
+    FILE: Byla
+    FOLDER: Direktorija
+    IMAGEDIMENSIONS: Matmenys
+    IMAGEHEIGHTPX: Aukštis
+    IMAGETITLE: 'Pavadinimo tekstas (pagalbinis tekstas) - papildomai informacijai apie paveikslėlį'
+    IMAGEWIDTHPX: Plotis
+    LINK: 'Nuoroda'
+    LINKANCHOR: 'Pagrindinis šiame puslapyje'
+    LINKDESCR: 'Nuorodos aprašymas'
+    LINKEMAIL: 'E. pašto adresas'
+    LINKEXTERNAL: 'Kita svetainė'
+    LINKFILE: 'Atsisiųsti bylą'
+    LINKINTERNAL: 'Puslapis svetainėje'
+    LINKOPENNEWWIN: 'Atidaryti nuorodą naujame lange?'
+    LINKTO: 'Nuoroda į'
+    PAGE: Puslapis
+    URL: URL adresas
+  Image_iframe_ss:
+    TITLE: 'Atvaizdo siuntimas iframe'
+  LoginAttempt:
+    Email: 'E. pašto adresas'
+    IP: 'IP adresas'
+    Status: Statusas
+  Member:
+    BUTTONCHANGEPASSWORD: 'Pakeisti slaptažodį'
+    BUTTONLOGIN: 'Prisijungti'
+    BUTTONLOGINOTHER: 'Prisijungti kitu vardu'
+    BUTTONLOSTPASSWORD: 'Pamiršau savo slaptažodį'
+    CONFIRMNEWPASSWORD: 'Patvirtinkite naują slaptažodį'
+    CONFIRMPASSWORD: 'Patvirtinkite slaptažodį'
+    EMAIL: E. paštas
+    ENTEREMAIL: 'Įveskite e. pašto adresą norėdami gauti slaptažodžio atstatymo nuorodą.'
+    ERRORNEWPASSWORD: 'Nesutampa naujas slaptažodis, bandykite dar kartą'
+    ERRORPASSWORDNOTMATCH: 'Nesutampa Jūsų senas slaptažodis, bandykite dar kartą'
+    FIRSTNAME: 'Vardas'
+    INTERFACELANG: 'Kalba'
+    NEWPASSWORD: 'Naujas slaptažodis'
+    PASSWORD: Slaptažodis
+    PLURALNAME: Nariai
+    REMEMBERME: 'Prisiminti jungiantis kitą kartą?'
+    SINGULARNAME: Narys
+    SUBJECTPASSWORDCHANGED: 'Jūsų slaptažodis pakeistas'
+    SUBJECTPASSWORDRESET: 'Slaptažodžio atstatymo nuoroda'
+    SURNAME: Pavardė
+    VALIDATIONMEMBEREXISTS: 'Tokį e. paštą jau naudoja kitas narys.'
+    YOUROLDPASSWORD: 'Jūsų senas slaptažodis'
+    belongs_many_many_Groups: Grupės
+    db_LastVisited: 'Paskutinį kartą lankyta'
+    db_Locale: 'Vartotojo sąsajos kalba'
+    db_LockedOutUntil: 'Užrakinta iki '
+    db_NumVisit: 'Vizitų skaičius'
+    db_Password: Slaptažodis
+    db_PasswordExpiry: 'Slaptažodžio pabaigos data'
+  MemberAuthenticator:
+    TITLE: 'E-paštas ir slaptažodis'
+  MoneyField:
+    FIELDLABELAMOUNT: Kiekis
+    FIELDLABELCURRENCY: Valiuta
+  Permission:
+    FULLADMINRIGHTS: 'Pilnos administravimo teisės'
+  PhoneNumberField:
+    VALIDATION: 'Įveskite teisingą telefono numerį'
+  Security:
+    ALREADYLOGGEDIN: 'Jūs neturite prieigos prie šio puslapio. Jeigu norite prisijungti kaip kitas vartotojas, spauskite čia.'
+    BUTTONSEND: 'Atsiųsti slaptažodžio atstatymo nuorodą'
+    CHANGEPASSWORDBELOW: 'Žemiau galite pasikeisti savo slaptažodį.'
+    CHANGEPASSWORDHEADER: 'Pasikeiskite savo slaptažodį'
+    ENTERNEWPASSWORD: 'Įveskite naują slaptažodį.'
+    ERRORPASSWORDPERMISSION: 'Norėdami keisti savo slaptažodį turite būti prisijungęs!'
+    LOGGEDOUT: 'Jūs atsijungėte. Norėdami vėl prisijungti, įveskite savo duomenis į žemiau esančius laukelius.'
+    LOGIN: 'Prisijungti'
+    NOTEPAGESECURED: 'Šis puslapis yra apsaugotas. Įveskite savo prisijungimo duomenis, esančius žemiau.'
+    NOTERESETPASSWORD: 'Įveskite savo e. pašto adresą ir mes atsiųsime slaptažodžio atstatymui skirtą nuorodą'
+  SecurityAdmin:
+    GROUPNAME: 'Grupės pavadinimas'
+    MEMBERS: Nariai
+    PERMISSIONS: Leidimai
+  SiteTree:
+    TABMAIN: Pagrindinis
+  TableListField:
+    CSVEXPORT: 'Ekportuoti į CSV'
+  ToggleField:
+    LESS: mažiau
+    MORE: daugiau
+  Versioned:
+    has_many_Versions: Versijos

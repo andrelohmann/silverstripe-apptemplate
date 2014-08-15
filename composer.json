@@ -1,0 +1,80 @@
+{
+    "name": "VENDOR/PROJEKTNAME",
+        "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-themes-bootstrap"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-localegeoip"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-dependentdropdownfield"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-email_verified_member"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-bootstrap_extra_fields"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-bootstrap_navbar_languageform"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-bootstrap_navbar_loginform"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-extendedobjects"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-geoform"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-geoip"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-gridfieldextensions"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-legacyfields"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-mobile_detector"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-smtpmailer"
+            }
+	],
+	"require": {
+		"php": ">=5.3.2",
+		"composer/installers": "*",
+                "andrelohmann-silverstripe-themes/bootstrap": "3.1.5.1",
+                "andrelohmann-silverstripe/smtpmailer": "1.0",
+                "andrelohmann-silverstripe/geoip": "1.0",
+                "andrelohmann-silverstripe/localegeoip": "1.0",
+                "andrelohmann-silverstripe/geoform": "1.0",
+                "andrelohmann-silverstripe/extendedobjects": "1.0",
+                "andrelohmann-silverstripe/dependentdropdownfield": "1.0",
+                "andrelohmann-silverstripe/email_verified_member": "1.0",
+                "andrelohmann-silverstripe/bootstrap_extra_fields": "1.0",
+                "andrelohmann-silverstripe/bootstrap_navbar_languageform": "1.0",
+                "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.0",
+                "andrelohmann-silverstripe/gridfieldextensions": "1.0",
+                "andrelohmann-silverstripe/legacyfields": "1.0",
+                "andrelohmann-silverstripe/mobile_detector": "1.0"
+	},
+	"minimum-stability": "stable"
+}

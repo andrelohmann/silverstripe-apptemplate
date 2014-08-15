@@ -1,0 +1,1 @@
+Static Pages and Assets like Home Page

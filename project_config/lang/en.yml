@@ -1,0 +1,21 @@
+en:
+  PROJECT:
+    # Home index Title
+    HOMETITLE: 'Home Title'
+    # Home Index Content
+    HOMECONTENT: 'Home Content'
+    # Imprint
+    IMPRINTTITLE: 'Imprint'
+    IMPRINTCONTENT: 'We are the Company behind ...'
+    # ToS
+    TOSTITLE: 'Terms of Service'
+    TOSCONTENT: 'Terms and conditions and privacy'
+    # Contact
+    CONTACTTITLE: 'Contact'
+    CONTACTCONTENT: 'Contact us'
+    CONTACTEMAIL: 'Email'
+    CONTACTNAME: 'Name'
+    CONTACTMESSAGE: 'Message'
+    BUTTONSEND: 'Send'
+    CONTACTMAILSUBJECT: 'project - Contact Mesasge from '
+    CONTACTFORMSEND: 'Your message has been send.'
