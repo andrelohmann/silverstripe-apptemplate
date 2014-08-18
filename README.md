@@ -126,7 +126,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
                 "andrelohmann-silverstripe/geoip": "1.0",
                 "andrelohmann-silverstripe/localegeoip": "1.0",
                 "andrelohmann-silverstripe/geoform": "1.0",
-                "andrelohmann-silverstripe/extendedobjects": "1.0",
+                "andrelohmann-silverstripe/extendedobjects": "1.1",
                 "andrelohmann-silverstripe/dependentdropdownfield": "1.0",
                 "andrelohmann-silverstripe/email_verified_member": "1.0",
                 "andrelohmann-silverstripe/bootstrap_extra_fields": "1.0",
