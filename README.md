@@ -1,6 +1,6 @@
 # Silverstripe App Template - (c) Andre Lohmann (and others) 2014
 
-## Silverstripe Version 3.1.5
+## Silverstripe Version 3.1.6
 
 ## Maintainer Contact 
  * Andre Lohmann
@@ -122,7 +122,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 		"php": ">=5.3.2",
 		"composer/installers": "*",
                 "php-ffmpeg/php-ffmpeg": "~0.5",
-                "andrelohmann-silverstripe-themes/bootstrap": "3.1.5.1",
+                "andrelohmann-silverstripe-themes/bootstrap": "3.1.6.0",
                 "andrelohmann-silverstripe/smtpmailer": "1.0",
                 "andrelohmann-silverstripe/geoip": "1.0",
                 "andrelohmann-silverstripe/localegeoip": "1.0",
