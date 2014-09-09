@@ -38,8 +38,9 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 
  * clone the project
  * remove all git files and directories (.git/, .gitignore, ...)
- * create new .gitignore File with following contents
-```
+ * create new .gitignore File with following contents (add all folders of the included modules)
+
+---
 /.htaccess
 /htaccess_*
 /_ss_environment*
@@ -52,7 +53,8 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 /debug.log
 /silverstripe.log
 .DS_Store
-```
+---
+
  * create a new Git Project from this base
 
 ### Modules
