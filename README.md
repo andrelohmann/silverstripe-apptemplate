@@ -38,7 +38,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 
  * clone the project
  * remove all git files and directories (.git/, .gitignore, ...)
- * create new .gitignore File with following contents (add all folders of the included modules)
+ * create new .gitignore File with following contents
 
 ```yaml
 /.htaccess
@@ -52,7 +52,27 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 /nbproject/
 /debug.log
 /silverstripe.log
+/vendor
+/composer.lock
 .DS_Store
+```
+ * for each modules you are going to use from the following list, add the module folder to .gitignore
+
+```yaml
+/themes
+/localegeoip
+/dependentdropdownfield
+/email_verified_member
+/bootstrap_extra_fields
+/bootstrap_navbar_languageform
+/bootstrap_navbar_loginform
+/extendedobjects
+/geoform
+/geoip
+/gridfieldextensions
+/legacyfields
+/mobile_detector
+/smtpmailer
 ```
 
  * create a new Git Project from this base
