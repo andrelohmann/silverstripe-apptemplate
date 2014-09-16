@@ -144,7 +144,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 		"php": ">=5.3.2",
 		"composer/installers": "*",
                 "php-ffmpeg/php-ffmpeg": "~0.5",
-                "andrelohmann-silverstripe-themes/bootstrap": "3.1.6.0",
+                "andrelohmann-silverstripe-themes/bootstrap": "3.1.6.1",
                 "andrelohmann-silverstripe/smtpmailer": "1.1",
                 "andrelohmann-silverstripe/geoip": "1.0",
                 "andrelohmann-silverstripe/localegeoip": "1.0",
