@@ -17,7 +17,7 @@
         <!-- Optional theme -- >
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" /-->
 
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.9/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
         
         <style type="text/css">
 
