@@ -190,4 +190,52 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
  * set database configuration and other config parameters within _ss_environment.php
  * copy htaccess_default to .htaccess
  * set parameters on .htaccess (RewriteBase) as needed
+ * create directory "silverstripe-cache"
+ * chmod 777 -R assets/ silverstripe-cache/
+ * create apache vHost like in the following example
  * /dev/build the system (see http://www.silverstripe.org/)
+
+#### Apache vHost Example:
+```yaml
+<VirtualHost *:80>
+    ServerName YOURDOMAIN
+    ServerAlias YOURDOMAINALIAS
+    DocumentRoot /var/www/YOURPROJECT/
+
+    ServerAdmin info@arasys.de
+
+    # Logfiles:
+    CustomLog /var/log/apache2/YOURPROJECT combined
+    ErrorLog /var/log/apache2/error-YOURPROJECT
+    LogLevel warn
+
+    <Directory "/var/www/YOURPROJECT/">
+            Options FollowSymLinks
+            AllowOverride All
+            Order deny,allow
+            Deny from all
+            Allow from localhost
+            Allow from 127.0.0.1                                                                                                                                                            
+            Allow from All                                                                                                                                                                      
+    </Directory>                                                                                                                                                                                
+
+    DirectoryIndex index.php index.html
+
+    # PHP Flags
+    php_admin_flag engine on
+    php_admin_flag short_open_tag on
+    #use only <?php
+
+    php_admin_flag safe_mode off
+    php_admin_flag register_globals off
+    php_admin_flag allow_url_fopen on
+    php_admin_flag allow_url_include off
+    php_admin_flag display_errors off
+    php_admin_flag display_startup_errors off
+    #php_value error_reporting 2039
+
+    #php_admin_value open_basedir "/var/www/YOURPROJECT/:/tmp"
+    php_admin_value memory_limit 512M
+    php_admin_value date.timezone "Europe/Berlin"
+</VirtualHost>
+```
