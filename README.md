@@ -7,12 +7,14 @@
    <lohmann.andre (at) gmail (dot) com>
 	
 ## Requirements
+ * composer/installers
  * andrelohmann/silverstripe-framework
- * andrelohmann/silverstripe-cms
+ * silverstripe/cms
  * andrelohmann/silverstripe-themes-bootstrap
 
 ## Optional
- * silverstripe/geoip
+ * php-ffmpeg/php-ffmpeg
+ * andrelohmann/silverstripe-geoip
  * andrelohmann/silverstripe-localegeoip
  * andrelohmann/silverstripe-dependentdropdownfield
  * andrelohmann/silverstripe-emailverified_member
