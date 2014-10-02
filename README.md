@@ -152,7 +152,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 		"php": ">=5.3.2",
 		"composer/installers": "*",
                 "php-ffmpeg/php-ffmpeg": "~0.5",
-		"silverstripe/cms": "3.1.6",
+                "silverstripe/cms": "3.1.6",
                 "andrelohmann-silverstripe/framework": "3.1.6.0",
                 "andrelohmann-silverstripe-themes/bootstrap": "3.1.6.2",
                 "andrelohmann-silverstripe/smtpmailer": "1.1",
