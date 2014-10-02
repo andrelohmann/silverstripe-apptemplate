@@ -202,7 +202,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
     ServerAlias YOURDOMAINALIAS
     DocumentRoot /var/www/YOURPROJECT/
 
-    ServerAdmin info@arasys.de
+    ServerAdmin ADMINEMAIL
 
     # Logfiles:
     CustomLog /var/log/apache2/YOURPROJECT combined
