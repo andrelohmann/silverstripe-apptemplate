@@ -36,6 +36,8 @@ class Page_Controller extends ContentController {
                 // Jquery wird von Bootstrap im Page.ss Template geladen
                 Requirements::block(FRAMEWORK_DIR . '/thirdparty/jquery/jquery.min.js');
                 // <!--script src="http://code.jquery.com/jquery.min.js"></script-->
+                
+                Requirements::javascript('bootstrap_extra_fields/javascript/tooltip.js');
 	}
 
 }

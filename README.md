@@ -7,6 +7,8 @@
    <lohmann.andre (at) gmail (dot) com>
 	
 ## Requirements
+ * andrelohmann/silverstripe-framework
+ * andrelohmann/silverstripe-cms
  * andrelohmann/silverstripe-themes-bootstrap
 
 ## Optional
@@ -43,7 +45,9 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 ```yaml
 /.htaccess
 /htaccess_*
+!/htaccess_default
 /_ss_environment*
+!/_ss_environment_default.php
 /assets/*
 !/assets/.htaccess
 /cms/
@@ -83,6 +87,10 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 {
     "name": "VENDOR/PROJEKTNAME",
         "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-framework"
+            },
             {
                 "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-themes-bootstrap"
@@ -144,6 +152,8 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 		"php": ">=5.3.2",
 		"composer/installers": "*",
                 "php-ffmpeg/php-ffmpeg": "~0.5",
+		"silverstripe/cms": "3.1.6",
+                "andrelohmann-silverstripe/framework": "3.1.6.0",
                 "andrelohmann-silverstripe-themes/bootstrap": "3.1.6.2",
                 "andrelohmann-silverstripe/smtpmailer": "1.1",
                 "andrelohmann-silverstripe/geoip": "1.0",
@@ -170,3 +180,14 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
  * rename project_* folders to your preferences
  * check README Files of installed modules
  * set configuration in _ss_environment.php, .htaccess, project_config/_config.php
+ * checkin to new repository
+
+### Installation of the newly created project
+
+ * Clone Project
+ * run 'composer install' (see https://getcomposer.org/)
+ * copy _ss_environment_default.php to _ss_environment.php
+ * set database configuration and other config parameters within _ss_environment.php
+ * copy htaccess_default to .htaccess
+ * set parameters on .htaccess (RewriteBase) as needed
+ * /dev/build the system (see http://www.silverstripe.org/)

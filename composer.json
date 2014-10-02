@@ -3,6 +3,10 @@
         "repositories": [
             {
                 "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-framework"
+            },
+            {
+                "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-themes-bootstrap"
             },
             {
@@ -62,6 +66,8 @@
 		"php": ">=5.3.2",
 		"composer/installers": "*",
                 "php-ffmpeg/php-ffmpeg": "~0.5",
+		"silverstripe/cms": "3.1.6",
+                "andrelohmann-silverstripe/framework": "3.1.6.0",
                 "andrelohmann-silverstripe-themes/bootstrap": "3.1.6.2",
                 "andrelohmann-silverstripe/smtpmailer": "1.1",
                 "andrelohmann-silverstripe/geoip": "1.0",
