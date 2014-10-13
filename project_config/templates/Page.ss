@@ -11,8 +11,8 @@
         
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
         
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.2.0/cosmo/bootstrap.min.css" />
+        <!-- Optional theme -- >
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.2.0/cosmo/bootstrap.min.css" /-->
         
         <!-- Optional theme -- >
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" /-->
