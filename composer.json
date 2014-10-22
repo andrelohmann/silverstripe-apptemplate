@@ -77,7 +77,7 @@
                 "andrelohmann-silverstripe/extendedobjects": "1.2",
                 "andrelohmann-silverstripe/dependentdropdownfield": "1.0",
                 "andrelohmann-silverstripe/email_verified_member": "1.0",
-                "andrelohmann-silverstripe/bootstrap_extra_fields": "1.1",
+                "andrelohmann-silverstripe/bootstrap_extra_fields": "1.2",
                 "andrelohmann-silverstripe/bootstrap_navbar_languageform": "1.1",
                 "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.1",
                 "andrelohmann-silverstripe/gridfieldextensions": "1.0",
