@@ -56,6 +56,8 @@ class HomeController extends Page_Controller {
                 "Form" => ''
             ));
             
+            Requirements::css('project_home/css/home_index.css');
+            
             return $customisedController->renderWith(
                 array('Home_index', 'Home', 'Page', $this->stat('template_main'), 'BlankPage')
             );

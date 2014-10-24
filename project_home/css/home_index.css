@@ -1,0 +1,39 @@
+body #homeHeadline {
+    overflow: hidden;
+    background: #fff;
+    background-size: cover;
+    background-image: url(../images/map.jpg);
+    background-position: center center;
+    /*height: 580px;*/
+    position: relative;
+    /*top: -60px;*/
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 991px) {
+    body #homeHeadline {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+}
+@media (max-width: 767px) {
+    body #homeHeadline {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.jumbotron {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    color: inherit;
+    background: transparent url(../images/jumbotron-bg.png) 0px 0px repeat;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}

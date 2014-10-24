@@ -151,10 +151,8 @@
                 </div><!--/.navbar-collapse -->
             </div>
         </nav>
-    
-        <div class="container">
-            $Layout
-        </div>
+
+        $Layout
 
         <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
             <div class="container">
