@@ -206,6 +206,16 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
  * create apache vHost like in the following example
  * /dev/build the system (see http://www.silverstripe.org/)
 
+#### Updates/Extensions to Member Object
+
+If Extensions are added on the Member Object, a simple dev/build within the Browser does not work.
+In This case, got to the console, root directory of silverstripe and run the following command
+
+```yaml
+php framework/cli-script.php dev/build flush 1
+```
+
+
 #### Apache vHost Example:
 ```yaml
 <VirtualHost *:80>
