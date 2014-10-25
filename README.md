@@ -174,10 +174,10 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 	},
         "scripts": {
             "post-install-cmd": [
-                "cp vendor/andrelohmann-silverstripe/framework-fixes/* -r framework/"
+                "cp -r vendor/andrelohmann-silverstripe/framework-fixes/* framework/"
             ],
             "post-update-cmd": [
-                "cp vendor/andrelohmann-silverstripe/framework-fixes/* -r framework/"
+                "cp -r vendor/andrelohmann-silverstripe/framework-fixes/* framework/"
             ]
         },
 	"minimum-stability": "stable"
