@@ -167,7 +167,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
                 "andrelohmann-silverstripe/email_verified_member": "1.1",
                 "andrelohmann-silverstripe/bootstrap_extra_fields": "1.3",
                 "andrelohmann-silverstripe/bootstrap_navbar_languageform": "1.1",
-                "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.3",
+                "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.4",
                 "andrelohmann-silverstripe/gridfieldextensions": "1.0",
                 "andrelohmann-silverstripe/legacyfields": "1.1",
                 "andrelohmann-silverstripe/mobile_detector": "1.1"
