@@ -44,7 +44,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
  * remove all git files and directories (.git/, .gitignore, ...)
  * create new .gitignore File with following contents
 
-```yaml
+```
 /.htaccess
 /htaccess_*
 !/htaccess_default
@@ -62,9 +62,10 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 /composer.lock
 .DS_Store
 ```
+
  * for each modules you are going to use from the following list, add the module folder to .gitignore
 
-```yaml
+```
 /themes
 /localegeoip
 /dependentdropdownfield
@@ -85,6 +86,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 
 ### Modules
  * create a composer.json file to install needed modules
+
 ```json
 {
     "name": "VENDOR/PROJEKTNAME",
@@ -211,13 +213,13 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 If Extensions are added on the Member Object, a simple dev/build within the Browser does not work.
 In This case, got to the console, root directory of silverstripe and run the following command
 
-```yaml
+```
 php framework/cli-script.php dev/build flush 1
 ```
 
-
 #### Apache vHost Example:
-```yaml
+
+```
 <VirtualHost *:80>
     ServerName YOURDOMAIN
     ServerAlias YOURDOMAINALIAS
