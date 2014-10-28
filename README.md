@@ -18,6 +18,7 @@
  * andrelohmann/silverstripe-localegeoip
  * andrelohmann/silverstripe-dependentdropdownfield
  * andrelohmann/silverstripe-emailverified_member
+ * andrelohmann/silverstripe-bootstrap_social_connect
  * andrelohmann/silverstripe-bootstrap_extra_fields
  * andrelohmann/silverstripe-bootstrap_navbar_languageform
  * andrelohmann/silverstripe-bootstrap_navbar_loginform
@@ -70,6 +71,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 /localegeoip
 /dependentdropdownfield
 /email_verified_member
+/bootstrap_social_connect
 /bootstrap_extra_fields
 /bootstrap_navbar_languageform
 /bootstrap_navbar_loginform
@@ -110,6 +112,10 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
             {
                 "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-email_verified_member"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-bootstrap_social_connect"
             },
             {
                 "type": "vcs",
@@ -167,6 +173,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
                 "andrelohmann-silverstripe/extendedobjects": "1.3",
                 "andrelohmann-silverstripe/dependentdropdownfield": "1.0",
                 "andrelohmann-silverstripe/email_verified_member": "1.1",
+                "andrelohmann-silverstripe/bootstrap_social_connect": "1.0",
                 "andrelohmann-silverstripe/bootstrap_extra_fields": "1.3",
                 "andrelohmann-silverstripe/bootstrap_navbar_languageform": "1.1",
                 "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.4",

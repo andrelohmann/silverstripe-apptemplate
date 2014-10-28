@@ -37,16 +37,37 @@ Config::inst()->update('GDBackend', 'default_quality', 100);
 Config::inst()->update('RootURLController', 'default_homepage_link', 'home');
 Config::inst()->update('Security', 'default_login_dest', 'profile/me');
 
-// Validation Domain for the Email validation Link
-EmailVerifiedMember::set_validation_domain('http://__DOMAIN__');
-
-BootstrapNavbarLoginForm::set_AuthenticatorClass("EmailVerifiedMemberAuthenticator");
-BootstrapNavbarLoginForm::set_LoginFormClass("EmailVerifiedMemberLoginForm");
-
-EmailVerifiedMember::set_login_after_validation(true);
-EmailVerifiedSecurity::set_default_verified_dest('profile/me');
-// Add all new Users to the Frontend Group
-EmailVerifiedMember::set_default_add_to_frontend_group(true);
+// if Email Verified Member will be used
+    // Validation Domain for the Email validation Link
+    //EmailVerifiedMember::set_validation_domain(EMAILVERIFIEDMEMBER_VALIDATION_DOMAIN);
+    //BootstrapNavbarLoginForm::set_AuthenticatorClass("EmailVerifiedMemberAuthenticator");
+    //BootstrapNavbarLoginForm::set_LoginFormClass("EmailVerifiedMemberLoginForm");
+    //EmailVerifiedMember::set_login_after_validation(true);
+    // Add all new Users to the Frontend Group
+    //EmailVerifiedMember::set_default_add_to_frontend_group(true);
+    // Set the redirect destination Path to use after verification of email was successfull
+    //EmailVerifiedSecurity::set_default_verified_dest('profile/me');
+    
+ // if bootstrap_social_connect Plugin in stalled
+    //FacebookAuthRequest::set_facebook_app_id(FACEBOOK_APP_ID);
+    //FacebookAuthRequest::set_facebook_app_secret(FACEBOOK_APP_SECRET);
+    //FacebookAuthRequest::set_facebook_redirect_url(FACEBOOK_REDIRECT_URL);
+    //FacebookAuthRequest::set_facebook_scope(FACEBOOK_SCOPE);
+    //FacebookAuthRequest::set_signup_path('facebook/signup');
+    //FacebookAuthRequest::set_error_path('facebook/error');
+        
+    //GoogleAuthRequest::set_google_client_id(GOOGLE_CLIENT_ID);
+    //GoogleAuthRequest::set_google_client_secret(GOOGLE_CLIENT_SECRET);
+    //GoogleAuthRequest::set_google_redirect_url(GOOGLE_REDIRECT_URL);
+    //GoogleAuthRequest::set_google_scope(GOOGLE_SCOPE);
+    //GoogleAuthRequest::set_signup_path('google/signup');
+    //GoogleAuthRequest::set_error_path('google/error');
+        
+    //TwitterMember::set_twitter_consumer_key(TWITTER_CONSUMER_KEY);
+    //TwitterMember::set_twitter_consumer_secret(TWITTER_CONSUMER_SECRET);
+    //TwitterMember::set_twitter_callback_url(TWITTER_CALLBACK_URL);
+    //TwitterMember::set_facebook_signup_path('twitter/signup');
+    //TwitterMember::set_facebook_error_path('twitter/error');
 
 // Locale
 LocaleGeoip::set_available_languages(array(
@@ -69,7 +90,3 @@ elseif(Session::get('LocaleCode')) i18n::set_locale(Session::get('LocaleCode'));
 elseif(($Locale = LocaleGeoip::countryCode2Locale(Geoip::ip2country($_SERVER['REMOTE_ADDR'], true)))) i18n::set_locale($Locale);
 elseif(($Locale = LocaleGeoip::countryCode2Locale(Geoip::get_default_country_code()))==true) i18n::set_locale($Locale);
 else i18n::set_locale(LocaleGeoip::get_default_locale_code());*/
-
-//i18n::set_locale('de_DE');
-
-i18n::set_locale('de_DE');
