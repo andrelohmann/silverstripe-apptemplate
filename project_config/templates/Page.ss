@@ -9,13 +9,13 @@
         $MetaTags(false)
         <%-- Bootstrap --%>
         
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
         
         <!-- Optional theme -- >
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.2.0/cosmo/bootstrap.min.css" /-->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.3.0/cosmo/bootstrap.min.css" /-->
         
         <!-- Optional theme -- >
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" /-->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css" /-->
 
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
         
@@ -177,6 +177,6 @@
             </div>
         </nav>
         <!-- Latest compiled and minified JavaScript -->
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     </body>
 </html>

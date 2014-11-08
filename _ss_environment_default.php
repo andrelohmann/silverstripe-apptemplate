@@ -75,3 +75,11 @@ $_FILE_TO_URL_MAPPING['__ABSOLUTEPATH__'] = 'http://__DOMAIN__';
 //define('TWITTER_CONSUMER_KEY','YOUR_TWITTER_CONSUMER_KEY');
 //define('TWITTER_CONSUMER_SECRET','YOUR_TWITTER_CONSUMER_SECRET');
 //define('TWITTER_CALLBACK_URL','YOUR_TWITTER_CALLBACK_URL');
+
+// Session Extender
+//define('SESSIONID','PHPSESSID');
+//define('SESSIONLIFETIME',(60*60*2)); // two hours
+
+// Google Maps API Key
+// If using one of the GeoLocation Fields and Requests to Google Maps Api exceeds the Number of free Requests
+//define('GOOGLE_MAPS_API_KEY', 'ABQIAAAAbnvDoAoYOSW2iqoXiGTpYBTIx7cuHpcaq3fYV4NM0BaZl8OxDxS9pQpgJkMv0RxjVl6cDGhDNERjaQ'); // Old API Key for Localhost

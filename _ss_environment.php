@@ -62,3 +62,24 @@ define('SMTPMAILER_LANGUAGE','de');# Language for messages. Look into code/vendo
 
 global $_FILE_TO_URL_MAPPING;
 $_FILE_TO_URL_MAPPING['__ABSOLUTEPATH__'] = 'http://__DOMAIN__';
+
+// Social Connect
+//define('FACEBOOK_APP_ID','YOUR_FACEBOOK_APP_ID');
+//define('FACEBOOK_APP_SECRET','YOUR_FACEBOOK_APP_SECRET');
+//define('FACEBOOK_REDIRECT_URL','YOUR_FACEBOOK_REDIRECT_URL');
+//define('FACEBOOK_SCOPE','YOUR_FACEBOOK_SCOPE');
+//define('GOOGLE_CLIENT_ID','YOUR_GOOGLE_CLIENT_ID');
+//define('GOOGLE_CLIENT_SECRET','YOUR_GOOGLE_CLIENT_SECRET');
+//define('GOOGLE_REDIRECT_URL','YOUR_GOOGLE_REDIRECT_URL');
+//define('GOOGLE_SCOPE','YOUR_GOOGLE_SCOPE');
+//define('TWITTER_CONSUMER_KEY','YOUR_TWITTER_CONSUMER_KEY');
+//define('TWITTER_CONSUMER_SECRET','YOUR_TWITTER_CONSUMER_SECRET');
+//define('TWITTER_CALLBACK_URL','YOUR_TWITTER_CALLBACK_URL');
+
+// Session Extender
+//define('SESSIONID','PHPSESSID');
+//define('SESSIONLIFETIME',(60*60*2)); // two hours
+
+// Google Maps API Key
+// If using one of the GeoLocation Fields and Requests to Google Maps Api exceeds the Number of free Requests
+//define('GOOGLE_MAPS_API_KEY', 'ABQIAAAAbnvDoAoYOSW2iqoXiGTpYBTIx7cuHpcaq3fYV4NM0BaZl8OxDxS9pQpgJkMv0RxjVl6cDGhDNERjaQ'); // Old API Key for Localhost
