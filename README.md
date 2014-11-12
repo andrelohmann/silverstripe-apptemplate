@@ -250,11 +250,7 @@ php framework/cli-script.php dev/build flush 1
     <Directory "/var/www/YOURPROJECT/">
             Options FollowSymLinks
             AllowOverride All
-            Order deny,allow
-            Deny from all
-            Allow from localhost
-            Allow from 127.0.0.1                                                                                                                                                            
-            Allow from All                                                                                                                                                                      
+            Require all granted                                                                                                                                                                 
     </Directory>                                                                                                                                                                                
 
     DirectoryIndex index.php index.html
