@@ -176,7 +176,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
                 "andrelohmann-silverstripe/smtpmailer": "1.1",
                 "andrelohmann-silverstripe/geoip": "1.0",
                 "andrelohmann-silverstripe/localegeoip": "1.1",
-                "andrelohmann-silverstripe/geoform": "1.4",
+                "andrelohmann-silverstripe/geoform": "1.5",
                 "andrelohmann-silverstripe/extendedobjects": "1.3",
                 "andrelohmann-silverstripe/dependentdropdownfield": "1.0",
                 "andrelohmann-silverstripe/email_verified_member": "1.2",
