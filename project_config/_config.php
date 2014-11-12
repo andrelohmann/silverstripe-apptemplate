@@ -66,8 +66,8 @@ Config::inst()->update('Security', 'default_login_dest', 'profile/me');
     //TwitterMember::set_twitter_consumer_key(TWITTER_CONSUMER_KEY);
     //TwitterMember::set_twitter_consumer_secret(TWITTER_CONSUMER_SECRET);
     //TwitterMember::set_twitter_callback_url(TWITTER_CALLBACK_URL);
-    //TwitterMember::set_facebook_signup_path('twitter/signup');
-    //TwitterMember::set_facebook_error_path('twitter/error');
+    //TwitterMember::set_signup_path('twitter/signup');
+    //TwitterMember::set_error_path('twitter/error');
 
 // Locale
 LocaleGeoip::set_available_languages(array(

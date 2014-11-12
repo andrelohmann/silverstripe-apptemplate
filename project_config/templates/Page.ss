@@ -147,10 +147,11 @@
                         <li><a href="home/imprint">IMPRINT</a></li>
                     </ul>
                     <% end_if %>
-                    $BootstrapNavbarLoginForm
+                    $BootstrapNavbarModalLoginForm
                 </div><!--/.navbar-collapse -->
             </div>
         </nav>
+        $BootstrapNavbarModalLoginForm.Modal
 
         $Layout
 
