@@ -179,15 +179,15 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
                 "andrelohmann-silverstripe/geoform": "1.5",
                 "andrelohmann-silverstripe/extendedobjects": "1.4",
                 "andrelohmann-silverstripe/dependentdropdownfield": "1.0",
-                "andrelohmann-silverstripe/email_verified_member": "1.2",
+                "andrelohmann-silverstripe/email_verified_member": "1.3",
                 "andrelohmann-silverstripe/bootstrap_social_connect": "1.0",
                 "andrelohmann-silverstripe/bootstrap_extra_fields": "1.5",
                 "andrelohmann-silverstripe/bootstrap_navbar_languageform": "1.2",
-                "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.5",
+                "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.6",
                 "andrelohmann-silverstripe/gridfieldextensions": "1.0",
                 "andrelohmann-silverstripe/legacyfields": "1.1",
                 "andrelohmann-silverstripe/mobile_detector": "1.1",
-                "andrelohmann-silverstripe/session_extender": "1.0"
+                "andrelohmann-silverstripe/session_extender": "1.1"
 	},
         "scripts": {
             "post-install-cmd": [
