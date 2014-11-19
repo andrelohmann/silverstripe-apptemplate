@@ -273,3 +273,6 @@ php framework/cli-script.php dev/build flush 1
     php_admin_value date.timezone "Europe/Berlin"
 </VirtualHost>
 ```
+
+#### Apache 2.4
+On Apache 2.4 you should remove index.php file when mod_rewrite is installed and enabled.
