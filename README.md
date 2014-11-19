@@ -1,6 +1,6 @@
 # Silverstripe App Template - (c) Andre Lohmann (and others) 2014
 
-## Silverstripe Version 3.1.7
+## Silverstripe Version 3.1.8
 
 ## Maintainer Contact 
  * Andre Lohmann
@@ -169,10 +169,10 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 		"php": ">=5.3.2",
 		"composer/installers": "*",
                 "php-ffmpeg/php-ffmpeg": "~0.5",
-                "silverstripe/cms": "3.1.7",
-                "silverstripe/framework": "3.1.7",
-                "andrelohmann-silverstripe/framework-fixes": "3.1.7.0",
-                "andrelohmann-silverstripe-themes/bootstrap": "3.1.7.1",
+                "silverstripe/cms": "3.1.8",
+                "silverstripe/framework": "3.1.8",
+                "andrelohmann-silverstripe/framework-fixes": "3.1.8.0",
+                "andrelohmann-silverstripe-themes/bootstrap": "3.1.8.0",
                 "andrelohmann-silverstripe/smtpmailer": "1.1",
                 "andrelohmann-silverstripe/geoip": "1.0",
                 "andrelohmann-silverstripe/localegeoip": "1.1",
@@ -187,7 +187,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
                 "andrelohmann-silverstripe/gridfieldextensions": "1.0",
                 "andrelohmann-silverstripe/legacyfields": "1.1",
                 "andrelohmann-silverstripe/mobile_detector": "1.1",
-                "andrelohmann-silverstripe/session_extender": "1.1"
+                "andrelohmann-silverstripe/session_extender": "1.2"
 	},
         "scripts": {
             "post-install-cmd": [

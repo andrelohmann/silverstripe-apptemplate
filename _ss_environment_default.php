@@ -79,6 +79,9 @@ $_FILE_TO_URL_MAPPING['__ABSOLUTEPATH__'] = 'http://__DOMAIN__';
 // Session Extender
 //define('SESSIONID','PHPSESSID');
 //define('SESSIONLIFETIME',(60*60*2)); // two hours
+// if redis should be used for Session Savepath
+//define('SESSIONSAVEHANDLER', 'redis');
+//define('SESSIONSAVEPATH', 'tcp://127.0.0.1:6379?prefix=mySessionPrefix');
 
 // Google Maps API Key
 // If using one of the GeoLocation Fields and Requests to Google Maps Api exceeds the Number of free Requests
