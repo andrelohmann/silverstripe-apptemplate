@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
         
         <!-- Optional theme -- >
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.3.1/cosmo/bootstrap.min.css" /-->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.3.1/paper/bootstrap.min.css" /-->
         
         <!-- Optional theme -- >
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" /-->
@@ -23,8 +23,8 @@
         <style type="text/css">
 
             body {
-                padding-top: 70px;
-                padding-bottom: 70px;
+                padding-top: 64px;
+                padding-bottom: 64px;
             }
             /*
             
