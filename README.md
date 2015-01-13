@@ -171,20 +171,20 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
                 "php-ffmpeg/php-ffmpeg": "~0.5",
                 "silverstripe/cms": "3.1.8",
                 "silverstripe/framework": "3.1.8",
-                "andrelohmann-silverstripe/framework-fixes": "3.1.8.0",
-                "andrelohmann-silverstripe-themes/bootstrap": "3.1.8.2",
+                "andrelohmann-silverstripe/framework-fixes": "3.1.8.1",
+                "andrelohmann-silverstripe-themes/bootstrap": "3.1.8.3",
                 "andrelohmann-silverstripe/smtpmailer": "1.1",
-                "andrelohmann-silverstripe/geoip": "1.0",
+                "andrelohmann-silverstripe/geoip": "1.1",
                 "andrelohmann-silverstripe/localegeoip": "1.1",
                 "andrelohmann-silverstripe/geoform": "1.7",
                 "andrelohmann-silverstripe/extendedobjects": "1.4",
                 "andrelohmann-silverstripe/dependentdropdownfield": "1.0",
                 "andrelohmann-silverstripe/email_verified_member": "1.3",
                 "andrelohmann-silverstripe/bootstrap_social_connect": "1.0",
-                "andrelohmann-silverstripe/bootstrap_extra_fields": "1.7",
-                "andrelohmann-silverstripe/bootstrap_navbar_languageform": "1.3",
+                "andrelohmann-silverstripe/bootstrap_extra_fields": "1.8",
+                "andrelohmann-silverstripe/bootstrap_navbar_languageform": "1.4",
                 "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.6",
-                "andrelohmann-silverstripe/gridfieldextensions": "1.1",
+                "andrelohmann-silverstripe/gridfieldextensions": "1.2",
                 "andrelohmann-silverstripe/legacyfields": "1.1",
                 "andrelohmann-silverstripe/mobile_detector": "1.1",
                 "andrelohmann-silverstripe/session_extender": "1.2"
@@ -237,6 +237,13 @@ php framework/cli-script.php dev/build flush 1
 ```
 <VirtualHost *:80>
     ServerName YOURDOMAIN
+    ErrorLog /var/log/apache2/error-YOURPROJECT
+    LogLevel notice
+    RedirectMatch permanent ^/(.*) http://www.YOURDOMAIN/$1
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerName www.YOURDOMAIN
     ServerAlias YOURDOMAINALIAS
     DocumentRoot /var/www/YOURPROJECT/
 
@@ -250,7 +257,7 @@ php framework/cli-script.php dev/build flush 1
     <Directory "/var/www/YOURPROJECT/">
             Options FollowSymLinks
             AllowOverride All
-            Require all granted                                                                                                                                                                 
+            Require all granted                                                                                                                                                                    
     </Directory>                                                                                                                                                                                
 
     DirectoryIndex index.php index.html

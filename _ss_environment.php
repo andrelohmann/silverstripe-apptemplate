@@ -40,6 +40,9 @@ define('SS_DEFAULT_ADMIN_PASSWORD', '__PASSWORD__');
 //define('SS_MANIFESTCACHE', 'ManifestCache_File_PHP');
 //define('SS_MANIFESTCACHE', 'ManifestCache_APC');
 
+// if varnish stays in front and geoip is used, this variable will read the geolocation from x-forwarded-for
+//define('GEOIP_SERVER_VAR', 'HTTP_X_FORWARDED_FOR');
+
 // Self Defined Variables
 // Admin Email Address (From)
 define('ADMIN_EMAIL','__EMAIL__');
@@ -86,6 +89,9 @@ $_FILE_TO_URL_MAPPING['__ABSOLUTEPATH__'] = 'http://__DOMAIN__';
 // if redis should be used for Session Savepath
 //define('SESSIONSAVEHANDLER', 'redis');
 //define('SESSIONSAVEPATH', 'tcp://127.0.0.1:6379?prefix=mySessionPrefix');
+// if memcached should be used for Session Savepath
+//define('SESSIONSAVEHANDLER', 'memcached');
+//define('SESSIONSAVEPATH', '127.0.0.1:11211');
 
 // Google Maps API Key
 // If using one of the GeoLocation Fields and Requests to Google Maps Api exceeds the Number of free Requests
