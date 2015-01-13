@@ -36,6 +36,10 @@ define('SS_DEFAULT_ADMIN_PASSWORD', '__PASSWORD__');
 //define('SS_SEND_ALL_EMAILS_TO','');
 //define('SS_SEND_ALL_EMAILS_FROM','');
 
+// To be able to use opcode for manifest files define one of the following
+//define('SS_MANIFESTCACHE', 'ManifestCache_File_PHP');
+//define('SS_MANIFESTCACHE', 'ManifestCache_APC');
+
 // Self Defined Variables
 // Admin Email Address (From)
 define('ADMIN_EMAIL','__EMAIL__');
