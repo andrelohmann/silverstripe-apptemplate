@@ -85,6 +85,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 /mobile_detector
 /session_extender
 /smtpmailer
+/betterbuttons
 ```
 
  * create a new Git Project from this base
