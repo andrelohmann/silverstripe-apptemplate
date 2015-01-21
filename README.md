@@ -171,6 +171,7 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
                 "php-ffmpeg/php-ffmpeg": "~0.5",
                 "silverstripe/cms": "3.1.9",
                 "silverstripe/framework": "3.1.9",
+                "unclecheese/betterbuttons":"1.2.6",
                 "andrelohmann-silverstripe/framework-fixes": "3.1.9.0",
                 "andrelohmann-silverstripe-themes/bootstrap": "3.1.9.0",
                 "andrelohmann-silverstripe/smtpmailer": "1.1",
