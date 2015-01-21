@@ -1,20 +1,20 @@
 ### SILVERSTRIPE START ###
 <Files *.ss>
-	Order deny,allow
-	Deny from all
-	Allow from 127.0.0.1
+        Order deny,allow
+        Deny from all
+        Allow from 127.0.0.1
 </Files>
 
 <Files web.config>
-	Order deny,allow
-	Deny from all
+        Order deny,allow
+        Deny from all
 </Files>
 
 # This denies access to all yml files, since developers might include sensitive
 # information in them. See the docs for work-arounds to serve some yaml files
-<Files *.yml>
-	Order allow,deny
-	Deny from all
+<Files ~ "\.ya?ml$">
+        Order allow,deny
+        Deny from all
 </Files>
 
 # This denies access to all .md files, since developers might include sensitive
@@ -37,6 +37,7 @@ ErrorDocument 500 /assets/error-500.html
 	SetEnv HTTP_MOD_REWRITE On
 	RewriteEngine On
         #RewriteBase /YOURBASEPATH/
+
 	RewriteCond %{REQUEST_URI} ^(.*)$
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_URI} !\.php$
