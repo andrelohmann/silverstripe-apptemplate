@@ -1,4 +1,4 @@
-# Silverstripe App Template - (c) Andre Lohmann (and others) 2014
+# Silverstripe App Template - (c) Andre Lohmann (and others) 2015
 
 ## Silverstripe Version 3.1.9
 
