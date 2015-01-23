@@ -4,7 +4,7 @@
             <h1>$Title</h1>
             $Content
             <address>
-                <strong>mdate.me</strong><br />
+                <strong>Company</strong><br />
                 Somewhere in London<br />
                 Somewhere in UK<br />
                 <abbr title="Phone">P:</abbr> (123) 456-7890
