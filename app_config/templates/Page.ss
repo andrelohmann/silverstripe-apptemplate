@@ -166,10 +166,10 @@
                 
                 <div class="collapse navbar-collapse" id="bottom-navigation">
                     <ul class="nav navbar-nav">
-                        <li><a href="home/terms"><%t TopMenu.TERMS "TopMenu.TERMS" %></a></li>
-                        <li><a href="home/privacy"><%t TopMenu.PRIVACY "TopMenu.PRIVACY" %></a></li>
-                        <li><a href="home/contact"><%t TopMenu.CONTACT "TopMenu.CONTACT" %></a></li>
-                        <li><a href="home/imprint"><%t TopMenu.IMPRINT "TopMenu.IMPRINT" %></a></li>
+                        <li><a href="home/terms"><%t BottomMenu.TERMS "BottomMenu.TERMS" %></a></li>
+                        <li><a href="home/privacy"><%t BottomMenu.PRIVACY "BottomMenu.PRIVACY" %></a></li>
+                        <li><a href="home/contact"><%t BottomMenu.CONTACT "BottomMenu.CONTACT" %></a></li>
+                        <li><a href="home/imprint"><%t BottomMenu.IMPRINT "BottomMenu.IMPRINT" %></a></li>
                     </ul>
                     $BootstrapNavbarLanguageForm
                 </div>
