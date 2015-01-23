@@ -80,7 +80,7 @@
                 font-weight: 200;
                 line-height: 30px;
                 color: inherit;
-                background: transparent url(project_home/images/hero-unit-bg.png) 0px 0px repeat;
+                background: transparent url(app_home/images/hero-unit-bg.png) 0px 0px repeat;
                 -webkit-border-radius: 6px;
                 -moz-border-radius: 6px;
                 border-radius: 6px;
@@ -143,12 +143,6 @@
                         <li class="$LinkingMode"><a href="$Link" title="Go to $Title">$MenuTitle</a></li>
                     <% end_loop %>
                     </ul>
-                    <% else %>
-                    <ul class="nav navbar-nav">
-                        <li><a href="home/tos">TOS</a></li>
-                        <li><a href="home/contact">CONTACT</a></li>
-                        <li><a href="home/imprint">IMPRINT</a></li>
-                    </ul>
                     <% end_if %>
                     $BootstrapNavbarModalLoginForm
                 </div><!--/.navbar-collapse -->
@@ -167,14 +161,15 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <p class="navbar-text navbar-left">&copy; 2014</p>
+                    <p class="navbar-text navbar-left">&copy; 2015</p>
                 </div>
                 
                 <div class="collapse navbar-collapse" id="bottom-navigation">
                     <ul class="nav navbar-nav">
-                        <li><a href="home/tos">TOS</a></li>
-                        <li><a href="home/contact">CONTACT</a></li>
-                        <li><a href="home/imprint">IMPRINT</a></li>
+                        <li><a href="home/terms"><%t TopMenu.TERMS "TopMenu.TERMS" %></a></li>
+                        <li><a href="home/privacy"><%t TopMenu.PRIVACY "TopMenu.PRIVACY" %></a></li>
+                        <li><a href="home/contact"><%t TopMenu.CONTACT "TopMenu.CONTACT" %></a></li>
+                        <li><a href="home/imprint"><%t TopMenu.IMPRINT "TopMenu.IMPRINT" %></a></li>
                     </ul>
                     $BootstrapNavbarLanguageForm
                 </div>

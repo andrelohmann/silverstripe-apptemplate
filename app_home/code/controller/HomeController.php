@@ -9,8 +9,9 @@ class HomeController extends Page_Controller {
 	private static $url_segment = 'home';
 	
 	private static $allowed_actions = array( 
-		'index', 
-		'tos', 
+		'index',
+		'terms',
+		'privacy',
 		'contact',
                 'ContactForm',
 		'imprint'
@@ -41,7 +42,7 @@ class HomeController extends Page_Controller {
             
             // Vorerst keine Seite erstellt
             $tmpPage = new Page();
-            $tmpPage->Title = _t('PROJECT.HOMETITLE', 'PROJECT.HOMETITLE');
+            $tmpPage->Title = _t('Home.HOMETITLE', 'Home.HOMETITLE');
             $tmpPage->URLSegment = self::$url_segment;
             $tmpPage->ID = -1;// Set the page ID to -1 so we dont get the top level pages as its children
 
@@ -51,12 +52,12 @@ class HomeController extends Page_Controller {
             $this->init();
             
             $customisedController = $controller->customise(array(
-                "Title" => _t('PROJECT.HOMETITLE', 'PROJECT.HOMETITLE'),
-                "Content" => _t('PROJECT.HOMECONTENT', 'PROJECT.HOMECONTENT'),
+                "Title" => _t('Home.HOMETITLE', 'Home.HOMETITLE'),
+                "Content" => _t('Home.HOMECONTENT', 'Home.HOMECONTENT'),
                 "Form" => ''
             ));
             
-            Requirements::css('project_home/css/home_index.css');
+            Requirements::css('app_home/css/home_index.css');
             
             return $customisedController->renderWith(
                 array('Home_index', 'Home', 'Page', $this->stat('template_main'), 'BlankPage')
@@ -68,10 +69,10 @@ class HomeController extends Page_Controller {
 	 *
 	 * @return string Returns the "login" page as HTML code.
 	 */
-	public function tos() {
+	public function terms() {
             
             $tmpPage = new Page();
-            $tmpPage->Title = _t('PROJECT.TOSTITLE', 'PROJECT.TOSTITLE');
+            $tmpPage->Title = _t('Home.TERMSTITLE', 'Home.TERMSTITLE');
             $tmpPage->URLSegment = self::$url_segment;
             $tmpPage->ID = -1;// Set the page ID to -1 so we dont get the top level pages as its children
 
@@ -81,13 +82,41 @@ class HomeController extends Page_Controller {
             $this->init();
             
             $customisedController = $controller->customise(array(
-                "Title" => _t('PROJECT.TOSTITLE', 'PROJECT.TOSTITLE'),
-                "Content" => _t('PROJECT.TOSCONTENT', 'PROJECT.TOSCONTENT'),
+                "Title" => _t('Home.TERMSTITLE', 'Home.TERMSTITLE'),
+                "Content" => _t('Home.TERMSCONTENT', 'Home.TERMSCONTENT'),
                 "Form" => ''
             ));
             
             return $customisedController->renderWith(
-                array('Home_tos', 'Home', 'Page', $this->stat('template_main'), 'BlankPage')
+                array('Home_terms', 'Home', 'Page', $this->stat('template_main'), 'BlankPage')
+            );
+	}
+
+	/**
+	 * Show the "login" page
+	 *
+	 * @return string Returns the "login" page as HTML code.
+	 */
+	public function privacy() {
+            
+            $tmpPage = new Page();
+            $tmpPage->Title = _t('Home.PRIVACYTITLE', 'Home.PRIVACYTITLE');
+            $tmpPage->URLSegment = self::$url_segment;
+            $tmpPage->ID = -1;// Set the page ID to -1 so we dont get the top level pages as its children
+
+            $controller = Page_Controller::create($tmpPage);
+            $controller->init();
+            
+            $this->init();
+            
+            $customisedController = $controller->customise(array(
+                "Title" => _t('Home.PRIVACYTITLE', 'Home.PRIVACYTITLE'),
+                "Content" => _t('Home.PRIVACYCONTENT', 'Home.PRIVACYCONTENT'),
+                "Form" => ''
+            ));
+            
+            return $customisedController->renderWith(
+                array('Home_privacy', 'Home', 'Page', $this->stat('template_main'), 'BlankPage')
             );
 	}
 
@@ -99,7 +128,7 @@ class HomeController extends Page_Controller {
 	public function contact() {
             
             $tmpPage = new Page();
-            $tmpPage->Title = _t('PROJECT.CONTACTTITLE', 'PROJECT.CONTACTTITLE');
+            $tmpPage->Title = _t('Home.CONTACTTITLE', 'Home.CONTACTTITLE');
             $tmpPage->URLSegment = self::$url_segment;
             $tmpPage->ID = -1;// Set the page ID to -1 so we dont get the top level pages as its children
 
@@ -109,8 +138,8 @@ class HomeController extends Page_Controller {
             $this->init();
             
             $customisedController = $controller->customise(array(
-                "Title" => _t('PROJECT.CONTACTTITLE', 'PROJECT.CONTACTTITLE'),
-                "Content" => _t('PROJECT.CONTACTCONTENT', 'PROJECT.CONTACTCONTENT'),
+                "Title" => _t('Home.CONTACTTITLE', 'Home.CONTACTTITLE'),
+                "Content" => _t('Home.CONTACTCONTENT', 'Home.CONTACTCONTENT'),
                 "Form" => $this->ContactForm()
             ));
             
@@ -121,10 +150,6 @@ class HomeController extends Page_Controller {
         
         public function ContactForm(){
             // http://doc.silverstripe.org/framework/en/3.1/topics/forms
-            if(Session::get('ContactFormSend')){
-                Session::clear('ContactFormSend');
-                return false;
-            }
             return ContactForm::create($this, "ContactForm");
         }
 
@@ -136,7 +161,7 @@ class HomeController extends Page_Controller {
 	public function imprint() {
             
             $tmpPage = new Page();
-            $tmpPage->Title = _t('PROJECT.IMPRINTTITLE', 'PROJECT.IMPRINTTITLE');
+            $tmpPage->Title = _t('Home.IMPRINTTITLE', 'Home.IMPRINTTITLE');
             $tmpPage->URLSegment = self::$url_segment;
             $tmpPage->ID = -1;// Set the page ID to -1 so we dont get the top level pages as its children
 
@@ -146,8 +171,8 @@ class HomeController extends Page_Controller {
             $this->init();
             
             $customisedController = $controller->customise(array(
-                "Title" => _t('PROJECT.IMPRINTTITLE', 'PROJECT.IMPRINTTITLE'),
-                "Content" => _t('PROJECT.IMPRINTCONTENT', 'PROJECT.IMPRINTCONTENT'),
+                "Title" => _t('Home.IMPRINTTITLE', 'Home.IMPRINTTITLE'),
+                "Content" => _t('Home.IMPRINTCONTENT', 'Home.IMPRINTCONTENT'),
                 "Form" => ''
             ));
             

@@ -207,9 +207,9 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 
 ### Configuration
 
- * rename project_* folders to your preferences
+ * rename app_* folders to your preferences
  * check README Files of installed modules
- * set configuration in _ss_environment.php, .htaccess, project_config/_config.php
+ * set configuration in _ss_environment.php, .htaccess, app_config/_config.php
  * checkin to new repository
 
 ### Installation of the newly created project

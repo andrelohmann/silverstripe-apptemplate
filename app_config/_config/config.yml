@@ -1,5 +1,5 @@
 ---
-Name: project_config
+Name: app_config
 After: 'framework/*','cms/*'
 ---
 # YAML configuration for SilverStripe
