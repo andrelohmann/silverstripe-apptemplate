@@ -9,9 +9,9 @@ class ContactForm extends BootstrapHorizontalForm {
     public function __construct($controller, $name, $fields = null, $actions = null) {
         
         $fields = new FieldList(
-            $Email = EmailField::create('Email')->setTitle(_t('ContactForm.EMAIL','ContactForm.EMAIL'))->setValue(Session::get('FormInfo.ContactForm.Email')),
-            $Name = TextField::create('Name')->setTitle(_t('ContactForm.NAME','ContactForm.NAME'))->setValue(Session::get('FormInfo.ContactForm.Name')),
-            $Message = TextareaField::create('Message')->setTitle(_t('ContactForm.MESSAGE','ContactForm.MESSAGE'))->setValue(Session::get('FormInfo.ContactForm.Message'))
+            $Email = EmailField::create('Email')->setTitle(_t('ContactForm.EMAIL','ContactForm.EMAIL')),
+            $Name = TextField::create('Name')->setTitle(_t('ContactForm.NAME','ContactForm.NAME')),
+            $Message = TextareaField::create('Message')->setTitle(_t('ContactForm.MESSAGE','ContactForm.MESSAGE'))
         );
         
         $actions = new FieldList(
@@ -34,10 +34,6 @@ class ContactForm extends BootstrapHorizontalForm {
     }
     
     public function doContact(array $data) {
-        
-        Session::clear('FormInfo.ContactForm.Email');
-        Session::clear('FormInfo.ContactForm.Name');
-        Session::clear('FormInfo.ContactForm.Message');
         
         $email = new Email();
         $email->setTo(Email::getAdminEmail());
