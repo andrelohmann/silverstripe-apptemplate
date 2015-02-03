@@ -48,8 +48,9 @@ define('SS_DEFAULT_ADMIN_PASSWORD', '__PASSWORD__');
 define('ADMIN_EMAIL','__EMAIL__');
 // Error Log Email Address
 define('LOG_EMAIL','__EMAIL__');
-// need to check if logging is working, maybe following line is important
-// _config.php -> SS_Log::add_writer(new SMTP_LogEmailWriter(LOG_EMAIL), SS_Log::NOTICE, '<=');
+
+// Default Destionation path after successfull login
+define('DEFAULT_LOGIN_DESTINATION', '__CONTROLLER/ACTION__');
 
 // Modules
 
@@ -66,6 +67,9 @@ define('SMTPMAILER_LANGUAGE','de');# Language for messages. Look into code/vendo
 
 // EmailVerifiedMember
 //define('EMAILVERIFIEDMEMBER_VALIDATION_DOMAIN','http://__DOMAIN__'); // Domain used in validation email
+//define('EMAILVERIFIEDMEMBER_LOGIN_AFTER_VALIDATION',true);
+//define('EMAILVERIFIEDMEMBER_ADD_TO_FRONTEND_GROUP',true);
+//define('EMAILVERIFIEDMEMBER_DEFAULT_VERIFIED_DESTINATION', DEFAULT_LOGIN_DESTINATION);
 
 global $_FILE_TO_URL_MAPPING;
 $_FILE_TO_URL_MAPPING['__ABSOLUTEPATH__'] = 'http://__DOMAIN__';
@@ -73,19 +77,27 @@ $_FILE_TO_URL_MAPPING['__ABSOLUTEPATH__'] = 'http://__DOMAIN__';
 // Social Connect
 //define('FACEBOOK_APP_ID','YOUR_FACEBOOK_APP_ID');
 //define('FACEBOOK_APP_SECRET','YOUR_FACEBOOK_APP_SECRET');
-//define('FACEBOOK_REDIRECT_URL','YOUR_FACEBOOK_REDIRECT_URL');
-//define('FACEBOOK_SCOPE','YOUR_FACEBOOK_SCOPE');
+//define('FACEBOOK_REDIRECT_URL','YOUR_FACEBOOK_REDIRECT_URL'); // http://YOURDOMAIN/facebook/auth
+//define('FACEBOOK_SCOPE','YOUR_FACEBOOK_SCOPE'); // email,user_about_me,user_birthday
+//define('FACEBOOK_SIGNUP_PATH','facebook/signup'); // change for custom signup page
+//define('FACEBOOK_ERROR_PATH','facebook/error');
+
 //define('GOOGLE_CLIENT_ID','YOUR_GOOGLE_CLIENT_ID');
 //define('GOOGLE_CLIENT_SECRET','YOUR_GOOGLE_CLIENT_SECRET');
-//define('GOOGLE_REDIRECT_URL','YOUR_GOOGLE_REDIRECT_URL');
-//define('GOOGLE_SCOPE','YOUR_GOOGLE_SCOPE');
+//define('GOOGLE_REDIRECT_URL','YOUR_GOOGLE_REDIRECT_URL'); // http://YOURDOMAIN/google/auth
+//define('GOOGLE_SCOPE','YOUR_GOOGLE_SCOPE'); // https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
+//define('GOOGLE_SIGNUP_PATH','google/signup'); // change for custom signup page
+//define('GOOGLE_ERROR_PATH','google/error');
+
 //define('TWITTER_CONSUMER_KEY','YOUR_TWITTER_CONSUMER_KEY');
 //define('TWITTER_CONSUMER_SECRET','YOUR_TWITTER_CONSUMER_SECRET');
-//define('TWITTER_CALLBACK_URL','YOUR_TWITTER_CALLBACK_URL');
+//define('TWITTER_CALLBACK_URL','YOUR_TWITTER_CALLBACK_URL'); // http://YOURDOMAIN/google/auth
+//define('TWITTER_SIGNUP_PATH','twitter/signup'); // change for custom signup page
+//define('TWITTER_ERROR_PATH','twitter/error');
 
 // Session Extender
-//define('SESSIONID','PHPSESSID');
-//define('SESSIONLIFETIME',(60*60*2)); // two hours
+define('SESSIONID','PHPSESSID');
+define('SESSIONLIFETIME',(60*60*2)); // two hours
 // if redis should be used for Session Savepath
 //define('SESSIONSAVEHANDLER', 'redis');
 //define('SESSIONSAVEPATH', 'tcp://127.0.0.1:6379?prefix=mySessionPrefix');

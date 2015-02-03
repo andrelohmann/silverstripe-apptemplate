@@ -2,7 +2,7 @@
 <html>
     <head>
         <% base_tag %>
-        <title><% if $MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
+        <title>$Title</title>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -137,11 +137,9 @@
                 </div>
 
                 <div class="collapse navbar-collapse" id="top-navigation">
-                    <% if Menu(1) %>
+                    <% if $CurrentMember %>
                     <ul class="nav navbar-nav">
-                    <% loop Menu(1) %>
-                        <li class="$LinkingMode"><a href="$Link" title="Go to $Title">$MenuTitle</a></li>
-                    <% end_loop %>
+                        <li><a href="profile/index"><%t TopMenu.PROFILE "TopMenu.PROFILE" %></a></li>
                     </ul>
                     <% end_if %>
                     $BootstrapNavbarModalLoginForm

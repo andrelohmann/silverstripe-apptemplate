@@ -8,7 +8,6 @@
 	
 ## Requirements
  * composer/installers
- * silverstripe/cms
  * silverstripe/framework
  * andrelohmann/silverstripe-framework-fixes
  * andrelohmann/silverstripe-themes-bootstrap
@@ -33,11 +32,13 @@
  
 
 ## Overview
-The module provides a template to start from, when writing a new Silverstripe Application without using the regular Silverstripe Installer.
+The module provides a template to start from, when writing a new Silverstripe Application without using the regular Silverstripe Installer or the CMS Module.
 
 It recommends to use composer to install all necessary Modules for special kinds of Applications.
 
-This framework Module was patched with the fixes from andrelohmann/silverstripe-framework-fixes
+This framework-fixes are patching the silverstripe/framework module with some bugfixes and some error handling for nicer 404 Error Pages.
+
+Feel free to modify the app_* Folders to your needs.
 
 ## Installation
 
@@ -55,7 +56,6 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 !/_ss_environment_default.php
 /assets/*
 !/assets/.htaccess
-/cms/
 /framework/
 /silverstripe-cache/
 /nbproject/
@@ -170,25 +170,24 @@ This framework Module was patched with the fixes from andrelohmann/silverstripe-
 		"php": ">=5.3.2",
 		"composer/installers": "*",
                 "php-ffmpeg/php-ffmpeg": "~0.5",
-                "silverstripe/cms": "3.1.9",
                 "silverstripe/framework": "3.1.9",
                 "unclecheese/betterbuttons":"1.2.6",
-                "andrelohmann-silverstripe/framework-fixes": "3.1.9.0",
-                "andrelohmann-silverstripe-themes/bootstrap": "3.1.9.0",
-                "andrelohmann-silverstripe/smtpmailer": "1.1",
+                "andrelohmann-silverstripe/framework-fixes": "3.1.9.1",
+                "andrelohmann-silverstripe-themes/bootstrap": "3.1.9.1",
+                "andrelohmann-silverstripe/smtpmailer": "1.2",
                 "andrelohmann-silverstripe/geoip": "1.1",
                 "andrelohmann-silverstripe/localegeoip": "1.1",
-                "andrelohmann-silverstripe/geoform": "1.8",
-                "andrelohmann-silverstripe/extendedobjects": "1.4",
+                "andrelohmann-silverstripe/geoform": "1.9",
+                "andrelohmann-silverstripe/extendedobjects": "1.5",
                 "andrelohmann-silverstripe/dependentdropdownfield": "1.0",
-                "andrelohmann-silverstripe/email_verified_member": "1.3",
-                "andrelohmann-silverstripe/bootstrap_social_connect": "1.0",
+                "andrelohmann-silverstripe/email_verified_member": "1.4",
+                "andrelohmann-silverstripe/bootstrap_social_connect": "1.1",
                 "andrelohmann-silverstripe/bootstrap_extra_fields": "1.9",
-                "andrelohmann-silverstripe/bootstrap_navbar_languageform": "1.5",
-                "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.6",
+                "andrelohmann-silverstripe/bootstrap_navbar_languageform": "1.6",
+                "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.7",
                 "andrelohmann-silverstripe/gridfieldextensions": "1.2",
-                "andrelohmann-silverstripe/legacyfields": "1.2",
-                "andrelohmann-silverstripe/mobile_detector": "1.1",
+                "andrelohmann-silverstripe/legacyfields": "1.3",
+                "andrelohmann-silverstripe/mobile_detector": "1.2",
                 "andrelohmann-silverstripe/session_extender": "1.2"
 	},
         "scripts": {

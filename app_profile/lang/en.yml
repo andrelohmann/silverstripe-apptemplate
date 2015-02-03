@@ -1,0 +1,13 @@
+en: 
+  Profile:
+    # Home index Title
+    INDEXTITLE: 'Profile Title'
+    # Home Index Content
+    INDEXCONTENT: 'Profile Content'
+    
+  SignupForm:
+    CONFIRMTOS: '<p>By clicking the button you agree with the <a href="home/terms">Terms and Conditions</a> & <a href="home/privacy">Privacy Policy</a></p>'
+    BUTTONSIGNUP: 'Signup'
+    MODALBUTTON: '<i class="fa fa-envelope"></i> Signup with Email'
+    MODALTITLE: 'Signup with your Email address'
+    EMAILEXISTS: 'Your email allready exists on the system'

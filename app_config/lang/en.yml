@@ -1,33 +1,10 @@
 en:
+  TopMenu:
+    # Navbar Top Menu
+    PROFILE: 'Profile'
   BottomMenu:
     # Navbar Bottom Menu
     TERMS: 'Terms and Conditions'
     PRIVACY: 'Privacy Policy'
     CONTACT: 'Contact'
     IMPRINT: 'Imprint'
-    
-  Home:
-    # Home index Title
-    HOMETITLE: 'Home Title'
-    # Home Index Content
-    HOMECONTENT: 'Home Content'
-    # Terms
-    TERMSTITLE: 'Terms and Conditions'
-    TERMSCONTENT: 'Terms and Conditions'
-    # Privacy
-    PRIVACYTITLE: 'Privacy Policy'
-    PRIVACYCONTENT: 'Privacy Policy'
-    # Imprint
-    IMPRINTTITLE: 'Imprint'
-    IMPRINTCONTENT: 'We are the Company behind ...'
-    # Contact
-    CONTACTTITLE: 'Contact'
-    CONTACTCONTENT: 'Contact us'
-    
-  ContactForm:
-    EMAIL: 'Email'
-    NAME: 'Name'
-    MESSAGE: 'Message'
-    BUTTONSEND: 'Send'
-    SUBJECT: 'Contact Mesasge from '
-    SUCCESS: 'Your message has been send.'

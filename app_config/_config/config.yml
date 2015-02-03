@@ -1,6 +1,6 @@
 ---
 Name: app_config
-After: 'framework/*','cms/*'
+After: 'framework/*'
 ---
 # YAML configuration for SilverStripe
 # See http://doc.silverstripe.org/framework/en/topics/configuration
