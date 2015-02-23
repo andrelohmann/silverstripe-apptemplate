@@ -1,6 +1,6 @@
 # Silverstripe App Template - (c) Andre Lohmann (and others) 2015
 
-## Silverstripe Version 3.1.9
+## Silverstripe Version 3.1.10
 
 ## Maintainer Contact 
  * Andre Lohmann
@@ -14,6 +14,7 @@
 
 ## Optional
  * php-ffmpeg/php-ffmpeg
+ * unclecheese/betterbuttons
  * andrelohmann/silverstripe-geoip
  * andrelohmann/silverstripe-localegeoip
  * andrelohmann/silverstripe-dependentdropdownfield
@@ -170,10 +171,10 @@ Feel free to modify the app_* Folders to your needs.
 		"php": ">=5.3.2",
 		"composer/installers": "*",
                 "php-ffmpeg/php-ffmpeg": "~0.5",
-                "silverstripe/framework": "3.1.9",
+                "silverstripe/framework": "3.1.10",
                 "unclecheese/betterbuttons":"1.2.6",
-                "andrelohmann-silverstripe/framework-fixes": "3.1.9.1",
-                "andrelohmann-silverstripe-themes/bootstrap": "3.1.9.1",
+                "andrelohmann-silverstripe/framework-fixes": "3.1.10.0",
+                "andrelohmann-silverstripe-themes/bootstrap": "3.1.10.0",
                 "andrelohmann-silverstripe/smtpmailer": "1.2",
                 "andrelohmann-silverstripe/geoip": "1.1",
                 "andrelohmann-silverstripe/localegeoip": "1.1",
