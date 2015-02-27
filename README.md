@@ -234,6 +234,14 @@ In This case, got to the console, root directory of silverstripe and run the fol
 php framework/cli-script.php dev/build flush 1
 ```
 
+#### Ubuntu Packages
+
+In Ubuntu 14.04 install the following Packages
+
+```
+apt-get install libapache2-mpd-php5 php5-cli php5-curl php5-gd php5-imagick php5-mcrypt php5-tidy php5-xcache php5-geoip geoip-bin php5-mysql mysql-server-5.6 mysql-client-5.6 mysql-server-core-5.6 mysql-client-core-5.6 php5-redis redis-server phpmyadmin libfaac0 libfaac-dev libx264-dev libx264-142 x264 libav-tools
+```
+
 #### Apache vHost Example:
 
 ```

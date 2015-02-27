@@ -37,7 +37,7 @@ define('SS_DEFAULT_ADMIN_PASSWORD', '__PASSWORD__');
 //define('SS_SEND_ALL_EMAILS_FROM','');
 
 // To be able to use opcode for manifest files define one of the following
-//define('SS_MANIFESTCACHE', 'ManifestCache_File_PHP');
+//define('SS_MANIFESTCACHE', 'ManifestCache_File_PHP'); // on xcache installation, this might be faster
 //define('SS_MANIFESTCACHE', 'ManifestCache_APC');
 
 // if varnish stays in front and geoip is used, this variable will read the geolocation from x-forwarded-for
