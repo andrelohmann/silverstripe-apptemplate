@@ -3,9 +3,9 @@
         <div class="jumbotron">
             <div class="row">
                 <div class="col-sm-6">
-                    <button type="button" class="btn btn-info btn-lg btn-block"><i class="fa fa-facebook"></i> Login with facebook</button>
-                    <button type="button" class="btn btn-danger btn-lg btn-block"><i class="fa fa-google-plus"></i> Login with google</button>
-                    <button type="button" class="btn btn-success btn-lg btn-block"><i class="fa fa-twitter"></i> Login with twitter</button>
+                    <a href="$FacebookConnectUrl" class="btn btn-primary btn-lg btn-block"><%t FacebookConnect.LOGINBUTTON "FacebookConnect.LOGINBUTTON" %></a>
+                    <a href="$GoogleConnectUrl" class="btn btn-danger btn-lg btn-block"><%t GoogleConnect.LOGINBUTTON "GoogleConnect.LOGINBUTTON" %></a>
+                    <a href="$TwitterConnectUrl" class="btn btn-success btn-lg btn-block"><%t TwitterConnect.LOGINBUTTON "TwitterConnect.LOGINBUTTON" %></a>
                     <hr>
                     $SignupForm
                 </div>

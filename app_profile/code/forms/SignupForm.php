@@ -21,7 +21,7 @@ class SignupForm extends BootstrapHorizontalModalForm {
         );
         
         $ModalOpenButton = new BootstrapModalFormAction($Title = _t('SignupForm.MODALBUTTON','SignupForm.MODALBUTTON'));
-        $ModalOpenButton->addExtraClass('btn-primary btn-lg btn-block');
+        $ModalOpenButton->addExtraClass('btn-info btn-lg btn-block');
          
         parent::__construct(
             $controller,
