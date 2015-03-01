@@ -91,7 +91,7 @@ $_FILE_TO_URL_MAPPING['__ABSOLUTEPATH__'] = 'http://__DOMAIN__';
 
 //define('TWITTER_CONSUMER_KEY','YOUR_TWITTER_CONSUMER_KEY');
 //define('TWITTER_CONSUMER_SECRET','YOUR_TWITTER_CONSUMER_SECRET');
-//define('TWITTER_CALLBACK_URL','YOUR_TWITTER_CALLBACK_URL'); // http://YOURDOMAIN/google/auth
+//define('TWITTER_CALLBACK_URL','YOUR_TWITTER_CALLBACK_URL'); // http://YOURDOMAIN/twitter/auth
 //define('TWITTER_SIGNUP_PATH','twitter/signup'); // change for custom signup page
 //define('TWITTER_ERROR_PATH','twitter/error');
 
