@@ -19,7 +19,7 @@
         <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.1/animate.min.css" rel="stylesheet" />
 
         <!-- http://fortawesome.github.io/Font-Awesome/ -->
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
         <!-- https://useiconic.com/open/ -->
         <link href="//cdn.jsdelivr.net/open-iconic/1.1.0/font/css/open-iconic-bootstrap.min.css" rel="stylesheet" />
         
