@@ -5,7 +5,7 @@
                 <div class="col-sm-6">
                     <a href="$FacebookConnectUrl" class="btn btn-primary btn-lg btn-block"><%t FacebookConnect.LOGINBUTTON "FacebookConnect.LOGINBUTTON" %></a>
                     <a href="$GoogleConnectUrl" class="btn btn-danger btn-lg btn-block"><%t GoogleConnect.LOGINBUTTON "GoogleConnect.LOGINBUTTON" %></a>
-                    <a href="$TwitterConnectUrl" class="btn btn-success btn-lg btn-block"><%t TwitterConnect.LOGINBUTTON "TwitterConnect.LOGINBUTTON" %></a>
+                    <a href="twitter/login" class="btn btn-success btn-lg btn-block"><%t TwitterConnect.LOGINBUTTON "TwitterConnect.LOGINBUTTON" %></a>
                     <hr>
                     $SignupForm
                 </div>
