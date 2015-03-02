@@ -15,6 +15,9 @@
         <!-- Optional theme -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.3.2/paper/bootstrap.min.css" />
 
+        <!-- http://daneden.github.io/animate.css/ -->
+        <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.1/animate.min.css" rel="stylesheet" />
+
         <!-- http://fortawesome.github.io/Font-Awesome/ -->
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
         <!-- https://useiconic.com/open/ -->
