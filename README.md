@@ -174,7 +174,7 @@ Feel free to modify the app_* Folders to your needs.
                 "silverstripe/framework": "3.1.10",
                 "unclecheese/betterbuttons":"1.2.8",
                 "andrelohmann-silverstripe/framework-fixes": "3.1.10.0",
-                "andrelohmann-silverstripe-themes/bootstrap": "3.1.10.2",
+                "andrelohmann-silverstripe-themes/bootstrap": "3.1.10.3",
                 "andrelohmann-silverstripe/smtpmailer": "1.2",
                 "andrelohmann-silverstripe/geoip": "1.1",
                 "andrelohmann-silverstripe/localegeoip": "1.1",

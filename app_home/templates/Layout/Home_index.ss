@@ -3,9 +3,9 @@
         <div class="jumbotron">
             <div class="row">
                 <div class="col-sm-6">
-                    <a href="$FacebookConnectUrl" class="btn btn-primary btn-lg btn-block"><%t FacebookConnect.LOGINBUTTON "FacebookConnect.LOGINBUTTON" %></a>
-                    <a href="$GoogleConnectUrl" class="btn btn-danger btn-lg btn-block"><%t GoogleConnect.LOGINBUTTON "GoogleConnect.LOGINBUTTON" %></a>
-                    <a href="twitter/login" class="btn btn-success btn-lg btn-block"><%t TwitterConnect.LOGINBUTTON "TwitterConnect.LOGINBUTTON" %></a>
+                    <a href="$FacebookConnectUrl" class="btn btn-primary btn-lg btn-block animated bounceInLeft delayed02"><%t FacebookConnect.LOGINBUTTON "FacebookConnect.LOGINBUTTON" %></a>
+                    <a href="$GoogleConnectUrl" class="btn btn-danger btn-lg btn-block animated bounceInLeft delayed04"><%t GoogleConnect.LOGINBUTTON "GoogleConnect.LOGINBUTTON" %></a>
+                    <a href="twitter/login" class="btn btn-success btn-lg btn-block animated bounceInLeft delayed06"><%t TwitterConnect.LOGINBUTTON "TwitterConnect.LOGINBUTTON" %></a>
                     <hr>
                     $SignupForm
                 </div>
