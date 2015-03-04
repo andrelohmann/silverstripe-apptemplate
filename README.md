@@ -178,7 +178,7 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/smtpmailer": "1.2",
                 "andrelohmann-silverstripe/geoip": "1.1",
                 "andrelohmann-silverstripe/localegeoip": "1.1",
-                "andrelohmann-silverstripe/geoform": "1.9",
+                "andrelohmann-silverstripe/geoform": "1.10",
                 "andrelohmann-silverstripe/extendedobjects": "1.5",
                 "andrelohmann-silverstripe/dependentdropdownfield": "1.0",
                 "andrelohmann-silverstripe/email_verified_member": "1.4",
@@ -239,7 +239,7 @@ php framework/cli-script.php dev/build flush 1
 In Ubuntu 14.04 install the following Packages
 
 ```
-apt-get install libapache2-mpd-php5 php5-cli php5-curl php5-gd php5-imagick php5-mcrypt php5-tidy php5-xcache php5-geoip geoip-bin php5-mysql mysql-server-5.6 mysql-client-5.6 mysql-server-core-5.6 mysql-client-core-5.6 php5-redis redis-server phpmyadmin libfaac0 libfaac-dev libx264-dev libx264-142 x264 libav-tools
+apt-get install libapache2-mod-php5 php5-cli php5-curl php5-gd php5-imagick php5-mcrypt php5-tidy php5-xcache php5-geoip geoip-bin php5-mysql mysql-server-5.6 mysql-client-5.6 mysql-server-core-5.6 mysql-client-core-5.6 php5-redis redis-server phpmyadmin libfaac0 libfaac-dev libx264-dev libx264-142 x264 libav-tools
 ```
 
 #### Apache vHost Example:
