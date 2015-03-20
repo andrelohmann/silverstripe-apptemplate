@@ -1,6 +1,6 @@
 # Silverstripe App Template - (c) Andre Lohmann (and others) 2015
 
-## Silverstripe Version 3.1.10
+## Silverstripe Version 3.1.12
 
 ## Maintainer Contact 
  * Andre Lohmann
