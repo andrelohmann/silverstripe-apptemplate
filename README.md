@@ -76,6 +76,7 @@ Feel free to modify the app_* Folders to your needs.
 /email_verified_member
 /bootstrap_social_connect
 /bootstrap_extra_fields
+/bootstrap-tagfield
 /bootstrap_navbar_languageform
 /bootstrap_navbar_loginform
 /extendedobjects
@@ -128,6 +129,10 @@ Feel free to modify the app_* Folders to your needs.
             },
             {
                 "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-bootstrap-tagfield"
+            },
+            {
+                "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-bootstrap_navbar_languageform"
             },
             {
@@ -170,11 +175,11 @@ Feel free to modify the app_* Folders to your needs.
 	"require": {
 		"php": ">=5.3.2",
 		"composer/installers": "*",
-                "php-ffmpeg/php-ffmpeg": "~0.5",
-                "silverstripe/framework": "3.1.10",
+                "php-ffmpeg/php-ffmpeg": "0.6.0",
+                "silverstripe/framework": "3.1.12",
                 "unclecheese/betterbuttons":"1.2.8",
-                "andrelohmann-silverstripe/framework-fixes": "3.1.10.0",
-                "andrelohmann-silverstripe-themes/bootstrap": "3.1.10.3",
+                "andrelohmann-silverstripe/framework-fixes": "3.1.12.0",
+                "andrelohmann-silverstripe-themes/bootstrap": "3.1.12.0",
                 "andrelohmann-silverstripe/smtpmailer": "1.2",
                 "andrelohmann-silverstripe/geoip": "1.1",
                 "andrelohmann-silverstripe/localegeoip": "1.1",
@@ -184,6 +189,7 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/email_verified_member": "1.4",
                 "andrelohmann-silverstripe/bootstrap_social_connect": "1.3",
                 "andrelohmann-silverstripe/bootstrap_extra_fields": "1.10",
+                "andrelohmann-silverstripe/bootstrap-tagfield": "0.1",
                 "andrelohmann-silverstripe/bootstrap_navbar_languageform": "1.7",
                 "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.9",
                 "andrelohmann-silverstripe/gridfieldextensions": "1.2",
