@@ -12,7 +12,18 @@ en:
     PRIVACYCONTENT: 'Privacy Policy'
     # Imprint
     IMPRINTTITLE: 'Imprint'
-    IMPRINTCONTENT: 'We are the Company behind ...'
+    IMPRINTCONTENT: >
+      <address>
+        <strong>Company</strong><br />
+        Somewhere in London<br />
+        Somewhere in UK<br />
+        <abbr title="Phone">P:</abbr> (123) 456-7890
+      </address>
+      
+      <address>
+        <strong>Mail Contact</strong><br>
+        <a href="mailto:#">info@__DOMAIN__</a>
+      </address>
     # Contact
     CONTACTTITLE: 'Contact'
     CONTACTCONTENT: 'Contact us'

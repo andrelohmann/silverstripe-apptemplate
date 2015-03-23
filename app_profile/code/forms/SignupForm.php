@@ -10,7 +10,7 @@ class SignupForm extends BootstrapHorizontalModalForm {
         
         $fields = new FieldList(
             $Firstname = TextField::create('FirstName')->setTitle(_t('Member.FIRSTNAME','Member.FIRSTNAME'))->setValue(Session::get('FormInfo.SignupForm.Firstname')),
-            $Firstname = TextField::create('Surname')->setTitle(_t('Member.SURNAME','Member.SURNAME'))->setValue(Session::get('FormInfo.SignupForm.Surname')),
+            $Surname = TextField::create('Surname')->setTitle(_t('Member.SURNAME','Member.SURNAME'))->setValue(Session::get('FormInfo.SignupForm.Surname')),
             $Email = EmailField::create('Email')->setTitle(_t('Member.EMAIL','Member.EMAIL'))->setValue(Session::get('FormInfo.SignupForm.Email')),
             PasswordField::create('Password')->setTitle(_t('Member.PASSWORD','Member.PASSWORD')),
             LiteralField::create('Accept_TOS', _t('SignupForm.CONFIRMTOS', 'SignupForm.CONFIRMTOS'))
