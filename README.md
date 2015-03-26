@@ -33,7 +33,7 @@
  
 
 ## Overview
-The module provides a template to start from, when writing a new Silverstripe Application without using the regular Silverstripe Installer or the CMS Module.
+This module provides a template to start from, when writing a new Silverstripe Application without using the regular Silverstripe Installer or the CMS Module.
 
 It recommends to use composer to install all necessary Modules for special kinds of Applications.
 
@@ -233,8 +233,8 @@ Feel free to modify the app_* Folders to your needs.
 
 #### Updates/Extensions to Member Object
 
-If Extensions are added on the Member Object, a simple dev/build within the Browser does not work.
-In This case, got to the console, root directory of silverstripe and run the following command
+If Extensions are added to the Member Object, a simple dev/build within the Browser does not work.
+In this case, go to the console, root directory of silverstripe and run the following command
 
 ```
 php framework/cli-script.php dev/build flush 1
