@@ -20,6 +20,9 @@ Config::inst()->update('RootURLController', 'default_homepage_link', 'home');
 
 Config::inst()->update('Security', 'default_login_dest', DEFAULT_LOGIN_DESTINATION);
 
+// hash links will not be rewritten, to allow "Back to Top Button" and smooth scrolling on OnePagers
+Config::inst()->update('SSViewer', 'rewrite_hash_links', false);
+
 // Locale
 LocaleGeoip::set_available_languages(array(
     'en_US' => 'ENGLISH',

@@ -141,6 +141,60 @@
             });
         </script>
         <%-- end --%>
+
+        <%-- Back to Top Button on OnePagers --%>
+        <style type="text/css">
+            #back-top span {
+                position:fixed;
+                bottom:30px;
+                right:30px;
+                color:#eee;
+                background-color:rgba(0,0,0,0.3);
+                -webkit-transition:all .25s ease;
+                -moz-transition:all .25s ease;
+                -ms-transition:all .25s ease;
+                -o-transition:all .25s ease;
+                transition:all .25s ease;
+                padding:10px;
+                border-radius:5px;
+                text-align:center;
+            }
+
+            #back-top span:hover {
+                background-color:rgba(0,0,0,0.7);
+            }
+
+            #back-top span i {
+                font-size:3em;
+            }
+        </style>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                // hide #back-top first
+                $("#back-top").hide();
+    
+                // fade in #back-top
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 100) {
+                            $('#back-top').fadeIn();
+                        } else {
+                            $('#back-top').fadeOut();
+                        }
+                    });
+
+                    // scroll body to 0px on click
+                    $('#back-top span').click(function () {
+                        $('body,html').animate({
+                            scrollTop: 0
+                        }, 500);
+                        return false;
+                    });
+                });
+            });
+        </script>
+        <%-- end --%>
     </head>
     <body id="page-top" data-spy="scroll" data-target="#top-nav"><%-- activated scroll-spy for Top Navigation on OnePagers --%>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -192,6 +246,10 @@
                 </div>
             </div>
         </nav>
+        <%-- Back to Top Button --%>
+        <div id="back-top">
+            <span><i class="fa fa-chevron-up"></i></span>
+        </div>
         <!-- Latest compiled and minified JavaScript -->
     </body>
 </html>
