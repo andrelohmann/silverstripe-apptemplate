@@ -212,7 +212,7 @@
                 <div class="collapse navbar-collapse" id="top-navigation">
                     <% if $CurrentMember %>
                     <ul class="nav navbar-nav">
-                        <li><a href="profile/index"><%t TopMenu.PROFILE "TopMenu.PROFILE" %></a></li>
+                        <li class="<% if $URLPath == profile/index %>active<% end_if %>"><a href="profile/index"><%t TopMenu.PROFILE "TopMenu.PROFILE" %></a></li>
                     </ul>
                     <% end_if %>
                     $BootstrapNavbarModalLoginForm
@@ -237,10 +237,10 @@
                 
                 <div class="collapse navbar-collapse" id="bottom-navigation">
                     <ul class="nav navbar-nav">
-                        <li><a href="home/terms"><%t BottomMenu.TERMS "BottomMenu.TERMS" %></a></li>
-                        <li><a href="home/privacy"><%t BottomMenu.PRIVACY "BottomMenu.PRIVACY" %></a></li>
-                        <li><a href="home/contact"><%t BottomMenu.CONTACT "BottomMenu.CONTACT" %></a></li>
-                        <li><a href="home/imprint"><%t BottomMenu.IMPRINT "BottomMenu.IMPRINT" %></a></li>
+                        <li class="<% if $URLPath == home/terms %>active<% end_if %>"><a href="home/terms"><%t BottomMenu.TERMS "BottomMenu.TERMS" %></a></li>
+                        <li class="<% if $URLPath == home/privacy %>active<% end_if %>"><a href="home/privacy"><%t BottomMenu.PRIVACY "BottomMenu.PRIVACY" %></a></li>
+                        <li class="<% if $URLPath == home/contact %>active<% end_if %>"><a href="home/contact"><%t BottomMenu.CONTACT "BottomMenu.CONTACT" %></a></li>
+                        <li class="<% if $URLPath == home/imprint %>active<% end_if %>"><a href="home/imprint"><%t BottomMenu.IMPRINT "BottomMenu.IMPRINT" %></a></li>
                     </ul>
                     $BootstrapNavbarLanguageForm
                 </div>

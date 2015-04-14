@@ -5,6 +5,7 @@
                 <div class="col-sm-6">
                     <a href="$FacebookConnectUrl" class="btn btn-primary btn-lg btn-block animated bounceInLeft delayed02"><%t FacebookConnect.LOGINBUTTON "FacebookConnect.LOGINBUTTON" %></a>
                     <a href="$GoogleConnectUrl" class="btn btn-danger btn-lg btn-block animated bounceInLeft delayed04"><%t GoogleConnect.LOGINBUTTON "GoogleConnect.LOGINBUTTON" %></a>
+                    <a href="$InstagramConnectUrl" class="btn btn-info btn-lg btn-block animated bounceInLeft delayed05"><%t InstagramConnect.LOGINBUTTON "InstagramConnect.LOGINBUTTON" %></a>
                     <a href="twitter/login" class="btn btn-success btn-lg btn-block animated bounceInLeft delayed06"><%t TwitterConnect.LOGINBUTTON "TwitterConnect.LOGINBUTTON" %></a>
                     <hr>
                     $SignupForm

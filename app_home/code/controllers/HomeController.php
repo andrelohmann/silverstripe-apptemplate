@@ -6,7 +6,9 @@
  */
 class HomeController extends Controller {
 	
-	private static $url_segment = 'home';
+	public static $url_topic = 'home';
+	
+	public static $url_segment = 'home';
 	
 	private static $allowed_actions = array( 
 		'index',

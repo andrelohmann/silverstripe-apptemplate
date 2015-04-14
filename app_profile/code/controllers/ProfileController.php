@@ -6,7 +6,9 @@
  */
 class ProfileController extends Controller {
 	
-	private static $url_segment = 'profile';
+	public static $url_topic = 'profile';
+	
+	public static $url_segment = 'profile';
 	
 	private static $allowed_actions = array( 
 		'index'

@@ -95,6 +95,13 @@ $_FILE_TO_URL_MAPPING['__ABSOLUTEPATH__'] = 'http://__DOMAIN__';
 //define('TWITTER_SIGNUP_PATH','twitter/signup'); // change for custom signup page
 //define('TWITTER_ERROR_PATH','twitter/error');
 
+//define('INSTAGRAM_CLIENT_ID', 'YOUR_INSTAGRAM_CLIENT_ID');
+//define('INSTAGRAM_CLIENT_SECRET', 'YOUR_INSTAGRAM_CLIENT_SECRET');
+//define('INSTAGRAM_REDIRECT_URL', 'YOUR_INSTAGRAM_REDIRECT_URL');
+//define('INSTAGRAM_SCOPE','YOUR_INSTAGRAM_SCOPE'); // basic
+//define('INSTAGRAM_SIGNUP_PATH','instagram/signup'); // change for custom signup page
+//define('INSTAGRAM_ERROR_PATH','instagram/error');
+
 // Session Extender
 define('SESSIONID','PHPSESSID');
 define('SESSIONLIFETIME',(60*60*2)); // two hours
