@@ -21,12 +21,12 @@ class AppControllerExtension extends Extension {
         
         public function URLTopic(){
             $OwnerClass = get_class($this->owner);
-            return $OwnerClass::$url_topic;
+            return (property_exists($OwnerClass, 'url_topic'))?$OwnerClass::$url_topic:'';
         }
         
         public function URLSegment(){
             $OwnerClass = get_class($this->owner);
-            return $OwnerClass::$url_segment;
+            return (property_exists($OwnerClass, 'url_segment'))?$OwnerClass::$url_segment:'';
         }
         
         public function URLAction(){
