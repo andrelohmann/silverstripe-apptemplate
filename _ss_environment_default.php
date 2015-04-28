@@ -115,3 +115,8 @@ define('SESSIONLIFETIME',(60*60*2)); // two hours
 // Google Maps API Key
 // If using one of the GeoLocation Fields and Requests to Google Maps Api exceeds the Number of free Requests
 //define('GOOGLE_MAPS_API_KEY', 'ABQIAAAAbnvDoAoYOSW2iqoXiGTpYBTIx7cuHpcaq3fYV4NM0BaZl8OxDxS9pQpgJkMv0RxjVl6cDGhDNERjaQ'); // Old API Key for Localhost
+
+// Benchmark Credentials
+// Set these Credentials as HTTP Header (HTTP_BENCHMARK_KEY, HTTP_BENCHMARK_SECRET) on your Load Testing Tool
+// define('BENCHMARK_KEY', 'YOUR_BENCHMARK_KEY');
+// define('BENCHMARK_SECRET', 'YOUR_BENCHMARK_SECRET');

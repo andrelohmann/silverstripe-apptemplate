@@ -45,7 +45,7 @@ class ProfileController extends Controller {
                 "Content" => _t('Profile.INDEXCONTENT', 'Profile.INDEXCONTENT'),
                 "Form" => ''
             )))->renderWith(
-                array('Profile_index', 'Profile', 'Page', $this->stat('template_main'), 'BlankPage')
+                array('Profile_index', 'Profile', $this->stat('template_main'), $this->stat('template'))
             );
 	}
 }
