@@ -43,6 +43,10 @@ define('SS_DEFAULT_ADMIN_PASSWORD', '__PASSWORD__');
 // if varnish stays in front and geoip is used, this variable will read the geolocation from x-forwarded-for
 //define('GEOIP_SERVER_VAR', 'HTTP_X_FORWARDED_FOR');
 
+// geoform needs a UDF (mysql user defined function) to be created
+// either create this function manually or on each /dev/build
+//define('GEOFORM_CREATE_GEODISTANCE_UDF', true);
+
 // Self Defined Variables
 // Admin Email Address (From)
 define('ADMIN_EMAIL','__EMAIL__');

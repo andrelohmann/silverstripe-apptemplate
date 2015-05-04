@@ -189,7 +189,7 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/smtpmailer": "1.2",
                 "andrelohmann-silverstripe/geoip": "1.1",
                 "andrelohmann-silverstripe/localegeoip": "1.1",
-                "andrelohmann-silverstripe/geoform": "1.10",
+                "andrelohmann-silverstripe/geoform": "1.11",
                 "andrelohmann-silverstripe/extendedobjects": "1.5",
                 "andrelohmann-silverstripe/dependentdropdownfield": "1.0",
                 "andrelohmann-silverstripe/email_verified_member": "1.5",
