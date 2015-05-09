@@ -10,7 +10,7 @@
         $MetaTags(false)
         <%-- Bootstrap --%>
         
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+        <!--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" /-->
         
         <!-- Optional theme -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.3.4/paper/bootstrap.min.css" />
