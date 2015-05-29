@@ -1,6 +1,6 @@
 # Silverstripe App Template - (c) Andre Lohmann (and others) 2015
 
-## Silverstripe Version 3.1.12
+## Silverstripe Version 3.1.13
 
 ## Maintainer Contact 
  * Andre Lohmann
@@ -182,10 +182,10 @@ Feel free to modify the app_* Folders to your needs.
 		"php": ">=5.3.2",
 		"composer/installers": "*",
                 "php-ffmpeg/php-ffmpeg": "0.6.0",
-                "silverstripe/framework": "3.1.12",
+                "silverstripe/framework": "3.1.13",
                 "unclecheese/betterbuttons":"1.2.8",
-                "andrelohmann-silverstripe/framework-fixes": "3.1.12.0",
-                "andrelohmann-silverstripe-themes/bootstrap": "3.1.12.3",
+                "andrelohmann-silverstripe/framework-fixes": "3.1.13.0",
+                "andrelohmann-silverstripe-themes/bootstrap": "3.1.13.0",
                 "andrelohmann-silverstripe/smtpmailer": "1.2",
                 "andrelohmann-silverstripe/geoip": "1.1",
                 "andrelohmann-silverstripe/localegeoip": "1.1",
