@@ -215,7 +215,7 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/mobile_detector": "1.2",
                 "andrelohmann-silverstripe/session_extender": "1.2",
                 "andrelohmann-silverstripe/gua-cookie-policy": "0.1",
-                "andrelohmann-silverstripe/shariff": "0.3",
+                "andrelohmann-silverstripe/shariff": "0.4",
                 "andrelohmann-silverstripe/benchmark": "0.1"
 	},
         "scripts": {
