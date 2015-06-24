@@ -111,7 +111,7 @@
                 "andrelohmann-silverstripe/mobile_detector": "1.2",
                 "andrelohmann-silverstripe/session_extender": "1.2",
                 "andrelohmann-silverstripe/gua-cookie-policy": "0.1",
-                "andrelohmann-silverstripe/shariff": "0.2",
+                "andrelohmann-silverstripe/shariff": "0.3",
                 "andrelohmann-silverstripe/benchmark": "0.1"
 	},
         "scripts": {

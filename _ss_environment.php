@@ -134,7 +134,7 @@ define('SESSIONLIFETIME',(60*60*2)); // two hours
 // Heise Shariff Social Media Plugin
 // necessary to comply with EU Cookie Law
 // Follow the config settings of https://github.com/heiseonline/shariff-backend-php
-//define('SHARIFF_OPTIONS', jsond_encode(array(
+//define('SHARIFF_OPTIONS', json_encode(array(
 //    "domain"   => 'YOURDOMAIN',
 //    "cache"    => ["ttl" => 1],
 //    "services" => ["Facebook", "GooglePlus", "Twitter", "LinkedIn", "Reddit", "StumbleUpon", "Flattr", "Pinterest"]
