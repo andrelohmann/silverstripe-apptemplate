@@ -75,6 +75,14 @@
             },
             {
                 "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-gua-cookie-policy"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-shariff"
+            },
+            {
+                "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-benchmark"
             }
 	],
@@ -85,7 +93,7 @@
                 "silverstripe/framework": "3.1.13",
                 "unclecheese/betterbuttons":"1.2.8",
                 "andrelohmann-silverstripe/framework-fixes": "3.1.13.0",
-                "andrelohmann-silverstripe-themes/bootstrap": "3.1.13.1",
+                "andrelohmann-silverstripe-themes/bootstrap": "3.1.13.3",
                 "andrelohmann-silverstripe/smtpmailer": "1.2",
                 "andrelohmann-silverstripe/geoip": "1.1",
                 "andrelohmann-silverstripe/localegeoip": "1.1",
@@ -102,6 +110,8 @@
                 "andrelohmann-silverstripe/legacyfields": "1.3",
                 "andrelohmann-silverstripe/mobile_detector": "1.2",
                 "andrelohmann-silverstripe/session_extender": "1.2",
+                "andrelohmann-silverstripe/gua-cookie-policy": "0.1",
+                "andrelohmann-silverstripe/shariff": "0.1",
                 "andrelohmann-silverstripe/benchmark": "0.1"
 	},
         "scripts": {

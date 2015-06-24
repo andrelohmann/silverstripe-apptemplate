@@ -10,21 +10,33 @@
         $MetaTags(false)
         <%-- Bootstrap --%>
         
-        <!--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" /-->
+        <%-- link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" /--%>
+        <%-- link rel="stylesheet" href="{$ThemeDir}/css/bootstrap/bootstrap.min.css" /--%>
         
         <!-- Optional theme -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.3.4/paper/bootstrap.min.css" />
+        <%--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.3.5/paper/bootstrap.min.css" /--%>
+        <link rel="stylesheet" href="{$ThemeDir}/css/bootstrap/paper/bootstrap.min.css" />
 
         <!-- http://daneden.github.io/animate.css/ -->
-        <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.5/animate.min.css" rel="stylesheet" />
+        <%--link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.min.css" rel="stylesheet" /--%>
+        <link href="{$ThemeDir}/css/animate/animate.min.css" rel="stylesheet" />
         <link href="{$ThemeDir}/css/animationdelay.css" rel="stylesheet" />
 
         <!-- http://fortawesome.github.io/Font-Awesome/ -->
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+        <%--link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" /-->
+        <link href="{$ThemeDir}/css/font-awesome/font-awesome.min.css" rel="stylesheet" />
         <!-- https://useiconic.com/open/ -->
-        <link href="//cdn.jsdelivr.net/open-iconic/1.1.0/font/css/open-iconic-bootstrap.min.css" rel="stylesheet" />
+        <%--link href="//cdn.jsdelivr.net/open-iconic/1.1.0/font/css/open-iconic-bootstrap.min.css" rel="stylesheet" /--%>
+        <link href="{$ThemeDir}/css/open-iconic/open-iconic-bootstrap.min.css" rel="stylesheet" />
         <!-- http://ionicons.com/ -->
-        <link href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" />
+        <%--link href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" /--%>
+        <link href="{$ThemeDir}/css/ionicons/ionicons.min.css" rel="stylesheet" />
+        
+        <%--
+            // necessary shariff styles
+            // include font-awesome before
+            <link href="shariff/css/shariff.min.css" rel="stylesheet" />
+        --%>
         
         <style type="text/css">
 
@@ -32,65 +44,6 @@
                 padding-top: 64px;
                 padding-bottom: 64px;
             }
-            /*
-            
-            @font-face {
-                font-family: 'UbuntuTitlingBold';
-                src: url('{$ThemeDir}/webfonts/UbuntuTitling-Bold-webfont.eot');
-                src: url('{$ThemeDir}/webfonts/UbuntuTitling-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-                     url('{$ThemeDir}/webfonts/UbuntuTitling-Bold-webfont.woff') format('woff'),
-                     url('{$ThemeDir}/webfonts/UbuntuTitling-Bold-webfont.ttf') format('truetype'),
-                     url('{$ThemeDir}/webfonts/UbuntuTitling-Bold-webfont.svg#UbuntuTitlingBold') format('svg');
-                font-weight: normal;
-                font-style: normal;
-            }
-            
-            .navbar-inner {
-                background-color: goldenrod; / * background color will be black for all browsers * /
-                background-image: -moz-linear-gradient(top, goldenrod, gold);
-                background-image: -webkit-gradient(linear, 0 0, 0 100%, from(goldenrod), to(gold));
-                background-image: -webkit-linear-gradient(top,goldenrod,gold);
-                background-image: -o-linear-gradient(top,goldenrod,gold);
-                background-image: linear-gradient(to bottom,goldenrod,gold);
-                border-color: #222;
-                background-repeat: no-repeat;
-                filter: none;
-            }
-
-            .navbar .navbar-text {
-                color: white;
-            }
-            
-            .navbar .nav > li > a {
-                text-shadow: none;
-                color: white;
-            }
-            
-            .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-                background-color: orange;
-                box-shadow: inset 0px 3px 8px rgba(0, 0, 0, 0.126);
-                color: #555555;
-                text-decoration: none;
-            }
-
-            .navbar .navbar-brand {
-                font-family: UbuntuTitlingBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
-                padding: 5px 5px 4px 0px;
-                color: white;
-            }
-            
-            .jumbotron {
-                padding: 10px;
-                margin-bottom: 10px;
-                font-size: 18px;
-                font-weight: 200;
-                line-height: 30px;
-                color: inherit;
-                background: transparent url(app_home/images/hero-unit-bg.png) 0px 0px repeat;
-                -webkit-border-radius: 6px;
-                -moz-border-radius: 6px;
-                border-radius: 6px;
-            }*/
         </style>
 
         <!-- Fav and touch icons -->
@@ -121,24 +74,29 @@
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <%--script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script--%>
+            <script src="{$ThemeDir}/javascript/html5shiv/html5shiv.min.js"></script>
+            <%--script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script--%>
+            <script src="{$ThemeDir}/javascript/respond/respond.min.js"></script>
         <![endif]-->
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://code.jquery.com/jquery.js"></script>
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <%--script src="https://code.jquery.com/jquery.min.js"></script--%>
+        <script src="{$ThemeDir}/javascript/jquery/jquery.min.js"></script>
+        <%--script src="//netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script--%>
+        <script src="{$ThemeDir}/javascript/bootstrap/bootstrap.min.js"></script>
 
         <%-- activate smooth scrolling Navigation on OnePagers --%>
-        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
         <script type="text/javascript">
+            /* Smooth scrolling para anclas */  
             $(function() {
-                $('a[href*=#]:not([href=#])').bind('click', function(event) {
-                    var $anchor = $(this);
+                $('a[href*=#]:not([href=#])').bind('click',function(e){
+                    e.preventDefault();
+                    var link = $(this);
+                    var anchor = link.attr('href');
                     $('html, body').stop().animate({
-                        scrollTop: $($anchor.attr('href')).offset().top
-                    }, 1500, 'easeInOutExpo');
-                    event.preventDefault();
+                        scrollTop: $(anchor).offset().top
+                    }, 1000);
                 });
             });
         </script>
@@ -197,10 +155,11 @@
             });
         </script>
         <%-- end --%>
+
     </head>
     <body id="page-top" data-spy="scroll" data-target="#top-nav"><%-- activated scroll-spy for Top Navigation on OnePagers --%>
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div id="top-nav" class="container"><!-- This container will center the Navbar Contents to the fluid width, by uncommenting it, the whole width will be used -->
+        <nav id="top-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container"><!-- This container will center the Navbar Contents to the fluid width, by uncommenting it, the whole width will be used -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-navigation">
                         <span class="sr-only">Toggle navigation</span>
@@ -222,8 +181,21 @@
             </div>
         </nav>
         $BootstrapNavbarModalLoginForm.Modal
+        
+        <%--
+            // Include CookiesWarning if gua-cookie-policy module is installed
+            <% include CookiesWarning %>
+        <%--
 
         $Layout
+        
+        <%--
+            // If you like to use shariff, place the following code somewhere on your Page
+            // configure following this guide: https://github.com/heiseonline/shariff#options-data-attributes
+            <div class="container">
+                <div class="shariff" data-backend-url="shariff" data-lang="$CurrentLang" data-url="$AbsoluteURLPath" data-orientation="horizontal"></div>
+            </div>
+        --%>
 
         <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
             <div class="container">
@@ -254,6 +226,9 @@
         </div>
         <!-- Latest compiled and minified JavaScript -->
         <%--
+            // Necessary shariff library
+            <script src="shariff/javascript/shariff.min.js"></script>
+        <%--
             // See the Getting Started docs for more information:
             // http://getbootstrap.com/getting-started/#support-ie10-width
         --%>
@@ -271,5 +246,9 @@
                 }
             })();
         </script>
+        <%--
+            // Include Google Analytics if gua-cookie-policy module is installed
+            <% include GoogleAnalytics %>
+        <%--
     </body>
 </html>

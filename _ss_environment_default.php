@@ -124,3 +124,18 @@ define('SESSIONLIFETIME',(60*60*2)); // two hours
 // Set these Credentials as HTTP Header (HTTP_BENCHMARK_KEY, HTTP_BENCHMARK_SECRET) on your Load Testing Tool
 // define('BENCHMARK_KEY', 'YOUR_BENCHMARK_KEY');
 // define('BENCHMARK_SECRET', 'YOUR_BENCHMARK_SECRET');
+
+// gua-cookie-policy Plugin
+// necessary to comply with EU Cookie Law
+// follow the Instructions in the modules Readme
+//define('GOOGLE_ANALYTICS_ID', 'YOUR_GOOGLE_ANALYTICS_ID');
+//define('GOOGLE_ANALYTICS_PRIVACY_URL', 'YOUR_GOOGLE_ANALYTICS_PRIVACY_URL');
+
+// Heise Shariff Social Media Plugin
+// necessary to comply with EU Cookie Law
+// Follow the config settings of https://github.com/heiseonline/shariff-backend-php
+//define('SHARIFF_OPTIONS', [
+//    "domain"   => 'YOURDOMAIN',
+//    "cache"    => ["ttl" => 1],
+//    "services" => ["Facebook", "GooglePlus", "Twitter", "LinkedIn", "Reddit", "StumbleUpon", "Flattr", "Pinterest"]
+//]);

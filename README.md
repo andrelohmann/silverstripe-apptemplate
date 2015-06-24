@@ -30,6 +30,8 @@
  * andrelohmann/silverstripe-mobile_detector
  * andrelohmann/silverstripe-session_extender
  * andrelohmann/silverstripe-smtpmailer
+ * andrelohmann/silverstripe-gua-cookie-policy
+ * andrelohmann/silverstripe-shariff
  * andrelohmann/silverstripe-benchmark
  
 
@@ -89,6 +91,8 @@ Feel free to modify the app_* Folders to your needs.
 /session_extender
 /smtpmailer
 /betterbuttons
+/gua-cookie-policy
+/shariff
 /benchmark
 ```
 
@@ -175,17 +179,25 @@ Feel free to modify the app_* Folders to your needs.
             },
             {
                 "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-gua-cookie-policy"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-shariff"
+            },
+            {
+                "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-benchmark"
             }
 	],
 	"require": {
-		"php": ">=5.3.2",
+		"php": ">=5.4",
 		"composer/installers": "*",
                 "php-ffmpeg/php-ffmpeg": "0.6.0",
                 "silverstripe/framework": "3.1.13",
                 "unclecheese/betterbuttons":"1.2.8",
                 "andrelohmann-silverstripe/framework-fixes": "3.1.13.0",
-                "andrelohmann-silverstripe-themes/bootstrap": "3.1.13.1",
+                "andrelohmann-silverstripe-themes/bootstrap": "3.1.13.3",
                 "andrelohmann-silverstripe/smtpmailer": "1.2",
                 "andrelohmann-silverstripe/geoip": "1.1",
                 "andrelohmann-silverstripe/localegeoip": "1.1",
@@ -202,6 +214,8 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/legacyfields": "1.3",
                 "andrelohmann-silverstripe/mobile_detector": "1.2",
                 "andrelohmann-silverstripe/session_extender": "1.2",
+                "andrelohmann-silverstripe/gua-cookie-policy": "0.1",
+                "andrelohmann-silverstripe/shariff": "0.1",
                 "andrelohmann-silverstripe/benchmark": "0.1"
 	},
         "scripts": {

@@ -36,5 +36,28 @@ class AppControllerExtension extends Extension {
         public function URLPath(){
             return $this->owner->URLSegment()."/".$this->owner->URLAction();
         }
-
+        
+        public function AbsoluteURLPath(){
+            return Director::absoluteBaseURL().$this->owner->URLSegment()."/".$this->owner->URLAction();
+        }
+        
+        // return Locale (e.g. de_DE, en_US)
+        public function CurrentLocale(){
+            return i18n::get_locale();
+        }
+        
+        // return Language (e.g. de, en)
+        public function CurrentLang(){
+            return i18n::get_tinymce_lang();
+        }
+        
+        /**
+         * @param type $array
+         * @return json object
+         */
+        public function jsonResponse($array){
+            Controller::curr()->response->addHeader("Content-Type", "application/json");
+            
+            return json_encode($array);
+        }
 }
