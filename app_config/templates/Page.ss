@@ -11,26 +11,26 @@
         <%-- Bootstrap --%>
         
         <%-- link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" /--%>
-        <%-- link rel="stylesheet" href="{$ThemeDir}/css/bootstrap/bootstrap.min.css" /--%>
+        <%-- link rel="stylesheet" href="{$ThemeDir}/libs/bootstrap/css/default/bootstrap.min.css" /--%>
         
         <!-- Optional theme -->
         <%--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.3.5/paper/bootstrap.min.css" /--%>
-        <link rel="stylesheet" href="{$ThemeDir}/css/bootstrap/paper/bootstrap.min.css" />
+        <link rel="stylesheet" href="{$ThemeDir}/libs/bootstrap/css/paper/bootstrap.min.css" />
 
         <!-- http://daneden.github.io/animate.css/ -->
         <%--link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.min.css" rel="stylesheet" /--%>
         <link href="{$ThemeDir}/css/animate/animate.min.css" rel="stylesheet" />
-        <link href="{$ThemeDir}/css/animationdelay.css" rel="stylesheet" />
+        <link href="{$ThemeDir}/css/animate/animationdelay.css" rel="stylesheet" />
 
         <!-- http://fortawesome.github.io/Font-Awesome/ -->
         <%--link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" /-->
-        <link href="{$ThemeDir}/css/font-awesome/font-awesome.min.css" rel="stylesheet" />
+        <link href="{$ThemeDir}/libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
         <!-- https://useiconic.com/open/ -->
         <%--link href="//cdn.jsdelivr.net/open-iconic/1.1.0/font/css/open-iconic-bootstrap.min.css" rel="stylesheet" /--%>
-        <link href="{$ThemeDir}/css/open-iconic/open-iconic-bootstrap.min.css" rel="stylesheet" />
+        <link href="{$ThemeDir}/libs/open-iconic/css/open-iconic-bootstrap.min.css" rel="stylesheet" />
         <!-- http://ionicons.com/ -->
         <%--link href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" /--%>
-        <link href="{$ThemeDir}/css/ionicons/ionicons.min.css" rel="stylesheet" />
+        <link href="{$ThemeDir}/libs/ionicons/css/ionicons.min.css" rel="stylesheet" />
         
         <%--
             // necessary shariff styles
@@ -84,7 +84,7 @@
         <%--script src="https://code.jquery.com/jquery.min.js"></script--%>
         <script src="{$ThemeDir}/javascript/jquery/jquery.min.js"></script>
         <%--script src="//netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script--%>
-        <script src="{$ThemeDir}/javascript/bootstrap/bootstrap.min.js"></script>
+        <script src="{$ThemeDir}/libs/bootstrap/javascript/bootstrap.min.js"></script>
 
         <%-- activate smooth scrolling Navigation on OnePagers --%>
         <script type="text/javascript">
