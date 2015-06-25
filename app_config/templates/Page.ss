@@ -193,7 +193,7 @@
             // If you like to use shariff, place the following code somewhere on your Page
             // configure following this guide: https://github.com/heiseonline/shariff#options-data-attributes
             <div class="container">
-                <div class="shariff" data-backend-url="shariff" data-lang="$CurrentLang" data-url="$AbsoluteURLPath" data-orientation="horizontal"></div>
+                <div class="shariff" data-backend-url="shariffbackend" data-lang="$CurrentLang" data-url="$AbsoluteURLPath" data-orientation="horizontal"></div>
             </div>
         --%>
 
