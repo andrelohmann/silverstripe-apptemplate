@@ -139,3 +139,23 @@ define('SESSIONLIFETIME',(60*60*2)); // two hours
 //    "cache"    => ["ttl" => 1],
 //    "services" => ["Facebook", "GooglePlus", "Twitter", "LinkedIn", "Reddit", "StumbleUpon", "Flattr", "Pinterest"]
 //)));
+
+// minify module, minifies html, css and javascript
+// uncomment the following and use as a template, if you want to use a custom caching backend
+// Minify Caching Backend
+//define('MINIFY_CACHE_BACKEND', serialize(array(
+//    "Type" => "Libmemcached",
+//    "Options" => array(
+//        "servers" => array(
+//            'host' => 'localhost', 
+//            'port' => 11211, 
+//            'persistent' => true, 
+//            'weight' => 1, 
+//            'timeout' => 5,
+//            'retry_interval' => 15, 
+//            'status' => true, 
+//            'failure_callback' => ''
+//        )
+//    )
+//)));
+//define('MINIFY_CACHE_LIFETIME', -1); // Lifetime in seconds, -1 for unlimited

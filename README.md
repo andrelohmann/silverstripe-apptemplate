@@ -187,26 +187,34 @@ Feel free to modify the app_* Folders to your needs.
             },
             {
                 "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-minify"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-bootstrap_backtotop_button"
+            },
+            {
+                "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-benchmark"
             }
 	],
 	"require": {
-		"php": ">=5.4",
+		"php": ">=5.3.2",
 		"composer/installers": "*",
                 "php-ffmpeg/php-ffmpeg": "0.6.0",
                 "silverstripe/framework": "3.1.13",
                 "unclecheese/betterbuttons":"1.2.8",
                 "andrelohmann-silverstripe/framework-fixes": "3.1.13.0",
-                "andrelohmann-silverstripe-themes/bootstrap": "3.1.13.6",
+                "andrelohmann-silverstripe-themes/bootstrap": "3.1.13.7",
                 "andrelohmann-silverstripe/smtpmailer": "1.2",
                 "andrelohmann-silverstripe/geoip": "1.1",
                 "andrelohmann-silverstripe/localegeoip": "1.1",
-                "andrelohmann-silverstripe/geoform": "1.16",
+                "andrelohmann-silverstripe/geoform": "1.17",
                 "andrelohmann-silverstripe/extendedobjects": "1.7",
                 "andrelohmann-silverstripe/dependentdropdownfield": "1.0",
                 "andrelohmann-silverstripe/email_verified_member": "1.6",
                 "andrelohmann-silverstripe/bootstrap_social_connect": "1.5",
-                "andrelohmann-silverstripe/bootstrap_extra_fields": "1.13",
+                "andrelohmann-silverstripe/bootstrap_extra_fields": "1.14",
                 "andrelohmann-silverstripe/bootstrap-tagfield": "0.1",
                 "andrelohmann-silverstripe/bootstrap_navbar_languageform": "1.7",
                 "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.9",
@@ -214,8 +222,10 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/legacyfields": "1.3",
                 "andrelohmann-silverstripe/mobile_detector": "1.3",
                 "andrelohmann-silverstripe/session_extender": "1.2",
-                "andrelohmann-silverstripe/gua-cookie-policy": "0.5",
-                "andrelohmann-silverstripe/shariff": "0.7",
+                "andrelohmann-silverstripe/gua-cookie-policy": "0.6",
+                "andrelohmann-silverstripe/shariff": "0.8",
+                "andrelohmann-silverstripe/minify": "0.2",
+                "andrelohmann-silverstripe/bootstrap_backtotop_button": "0.1",
                 "andrelohmann-silverstripe/benchmark": "0.1"
 	},
         "scripts": {
