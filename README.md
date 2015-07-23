@@ -214,7 +214,7 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/dependentdropdownfield": "1.0",
                 "andrelohmann-silverstripe/email_verified_member": "1.6",
                 "andrelohmann-silverstripe/bootstrap_social_connect": "1.5",
-                "andrelohmann-silverstripe/bootstrap_extra_fields": "1.14",
+                "andrelohmann-silverstripe/bootstrap_extra_fields": "1.15",
                 "andrelohmann-silverstripe/bootstrap-tagfield": "0.1",
                 "andrelohmann-silverstripe/bootstrap_navbar_languageform": "1.7",
                 "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.9",
