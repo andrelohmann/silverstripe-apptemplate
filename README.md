@@ -225,7 +225,7 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/gua-cookie-policy": "0.6",
                 "andrelohmann-silverstripe/shariff": "0.8",
                 "andrelohmann-silverstripe/minify": "0.2",
-                "andrelohmann-silverstripe/bootstrap_backtotop_button": "0.1",
+                "andrelohmann-silverstripe/bootstrap-backtotop_button": "0.1",
                 "andrelohmann-silverstripe/benchmark": "0.1"
 	},
         "scripts": {
