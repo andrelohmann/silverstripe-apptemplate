@@ -222,7 +222,7 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/legacyfields": "1.3",
                 "andrelohmann-silverstripe/mobile_detector": "1.3",
                 "andrelohmann-silverstripe/session_extender": "1.2",
-                "andrelohmann-silverstripe/gua-cookie-policy": "0.6",
+                "andrelohmann-silverstripe/gua-cookie-policy": "0.7",
                 "andrelohmann-silverstripe/shariff": "0.8",
                 "andrelohmann-silverstripe/minify": "0.2",
                 "andrelohmann-silverstripe/bootstrap_backtotop_button": "0.2",
