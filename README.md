@@ -26,6 +26,7 @@
  * andrelohmann/silverstripe-extendedobjects
  * andrelohmann/silverstripe-geoform
  * andrelohmann/silverstripe-gridfieldextensions
+ * andrelohmann/silverstripe-bootstrap_orderable_frontend
  * andrelohmann/silverstripe-legacyfields
  * andrelohmann/silverstripe-mobile_detector
  * andrelohmann/silverstripe-session_extender
@@ -86,6 +87,7 @@ Feel free to modify the app_* Folders to your needs.
 /geoform
 /geoip
 /gridfieldextensions
+/bootstrap_orderable_frontend
 /legacyfields
 /mobile_detector
 /session_extender
@@ -163,6 +165,10 @@ Feel free to modify the app_* Folders to your needs.
             },
             {
                 "type": "vcs",
+                "url": "https://github.com/andrelohmann/silverstripe-bootstrap_orderable_frontend"
+            },
+            {
+                "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-legacyfields"
             },
             {
@@ -219,6 +225,7 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/bootstrap_navbar_languageform": "1.7",
                 "andrelohmann-silverstripe/bootstrap_navbar_loginform": "1.9",
                 "andrelohmann-silverstripe/gridfieldextensions": "1.2",
+                "andrelohmann-silverstripe/bootstrap_orderable_frontend": "0.1",
                 "andrelohmann-silverstripe/legacyfields": "1.3",
                 "andrelohmann-silverstripe/mobile_detector": "1.3",
                 "andrelohmann-silverstripe/session_extender": "1.2",
