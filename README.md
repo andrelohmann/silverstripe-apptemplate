@@ -201,6 +201,10 @@ Feel free to modify the app_* Folders to your needs.
             },
             {
                 "type": "vcs",
+                "url": "https://github.com/eduardma/silverstripe-vimeo_video"
+            },
+            {
+                "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-benchmark"
             }
 	],
@@ -216,7 +220,7 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/geoip": "1.1",
                 "andrelohmann-silverstripe/localegeoip": "1.1",
                 "andrelohmann-silverstripe/geoform": "1.17",
-                "andrelohmann-silverstripe/extendedobjects": "1.8",
+                "andrelohmann-silverstripe/extendedobjects": "1.10",
                 "andrelohmann-silverstripe/dependentdropdownfield": "1.0",
                 "andrelohmann-silverstripe/email_verified_member": "1.6",
                 "andrelohmann-silverstripe/bootstrap_social_connect": "1.5",
@@ -229,10 +233,11 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/legacyfields": "1.3",
                 "andrelohmann-silverstripe/mobile_detector": "1.3",
                 "andrelohmann-silverstripe/session_extender": "1.2",
-                "andrelohmann-silverstripe/gua-cookie-policy": "0.7",
+                "andrelohmann-silverstripe/gua-cookie-policy": "0.8",
                 "andrelohmann-silverstripe/shariff": "0.8",
                 "andrelohmann-silverstripe/minify": "0.2",
                 "andrelohmann-silverstripe/bootstrap_backtotop_button": "0.2",
+                "eduardma-silverstripe/vimeo_video": "1.2",
                 "andrelohmann-silverstripe/benchmark": "0.1"
 	},
         "scripts": {
