@@ -7,3 +7,7 @@ After: 'framework/*'
 # Caution: Indentation through two spaces, not tabs
 SSViewer:
   theme: 'bootstrap'
+
+Member:
+  extensions:
+    - VisitsMemberExtension
