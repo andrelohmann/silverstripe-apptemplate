@@ -10,8 +10,6 @@ require_once("conf/ConfigureFromEnv.php");
         
 Config::inst()->update('Email', 'admin_email', ADMIN_EMAIL);
 
-Config::inst()->update('MySQLDatabase', 'connection_charset', 'utf8');
-
 Config::inst()->update('GDBackend', 'default_quality', 100);
 
 Controller::add_extension('AppControllerExtension');
