@@ -28,6 +28,13 @@ class HomeController extends Controller {
 	 * @var string
 	 */
 	public static $template_main = 'Page';
+
+	/**
+	 * Returns a link to this controller.  Overload with your own Link rules if they exist.
+	 */
+	public function Link() {
+		return self::$url_segment .'/';
+	}
 	
 	/**
 	 * Initialise the controller
