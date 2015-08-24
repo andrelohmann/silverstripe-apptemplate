@@ -8,7 +8,7 @@
  */
 
 /* Database connection */
-define('SS_DATABASE_CLASS', 'MySQLDatabase');
+define('SS_DATABASE_CLASS', 'MySQLPDODatabase');
 define('SS_DATABASE_SERVER', 'localhost');
 define('SS_DATABASE_USERNAME', '__USERNAME__');
 define('SS_DATABASE_PASSWORD', '__PASSWORD__');
