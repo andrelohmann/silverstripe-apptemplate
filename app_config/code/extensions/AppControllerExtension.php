@@ -87,4 +87,8 @@ class AppControllerExtension extends Extension {
             
             return json_encode($array);
         }
+		
+		public function Translate($Namespace, $Entity){
+			return _t($Namespace.".".$Entity, $Namespace.".".$Entity);
+		}
 }
