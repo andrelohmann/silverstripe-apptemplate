@@ -74,25 +74,28 @@
             </div>
         </nav>
         
-        <%-- Back to Top Button --%>
-        <% include BackToTopButton %>
+        <%--
+			//Back to Top Button
+			<% include BackToTopButton %>
+		 --%>
         
         <!-- Latest compiled and minified JavaScript -->
-
-        <%-- activate smooth scrolling Navigation on OnePagers --%>
-        <script type="text/javascript">
-            /* Smooth scrolling para anclas */  
-            $(function() {
-                $('a[href*=#]:not([href=#])').bind('click',function(e){
-                    e.preventDefault();
-                    var link = $(this);
-                    var anchor = link.attr('href');
-                    $('html, body').stop().animate({
-                        scrollTop: $(anchor).offset().top
-                    }, 1000);
-                });
-            });
-        </script>
-        <%-- end --%>
+        
+        <%--
+			//activate smooth scrolling Navigation on OnePagers
+			<script type="text/javascript">
+				/* Smooth scrolling para anclas */  
+				$(function() {
+					$('a[href*=#]:not([href=#])').bind('click',function(e){
+						e.preventDefault();
+						var link = $(this);
+						var anchor = link.attr('href');
+						$('html, body').stop().animate({
+							scrollTop: $(anchor).offset().top
+						}, 1000);
+					});
+				});
+			</script>
+        --%>
     </body>
 </html>

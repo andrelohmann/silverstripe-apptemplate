@@ -1,1 +1,28 @@
-de:
+de: 
+  Home:
+    # Privacy
+    PRIVACYCONTENT: 'Datenschutz'
+    # Imprint
+    IMPRINTTITLE: 'Imprint'
+    IMPRINTCONTENT: >
+      <address>
+        <strong>Company</strong><br />
+        Somewhere in London<br />
+        Somewhere in UK<br />
+        <abbr title="Phone">P:</abbr> (123) 456-7890
+      </address>
+      
+      <address>
+        <strong>Mail Contact</strong><br>
+        <a href="mailto:#">info@__DOMAIN__</a>
+      </address>
+    # Contact
+    CONTACTCONTENT: 'Kontaktieren Sie uns'
+    
+  ContactForm:
+    EMAIL: 'Email'
+    NAME: 'Name'
+    MESSAGE: 'Nachricht'
+    BUTTONSEND: 'Senden'
+    SUBJECT: 'Nachricht von '
+    SUCCESS: 'Ihre Nachricht wurde versandt.'
