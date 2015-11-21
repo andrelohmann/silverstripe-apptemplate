@@ -150,6 +150,10 @@ Feel free to modify the app_* Folders to your needs.
                 "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-extendedobjects"
             },
+			{
+				"type": "vcs",
+				"url": "https://github.com/andrelohmann/php-facedetection"
+			},
             {
                 "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-geoform"
@@ -228,6 +232,7 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/localegeoip": "2.*",
                 "andrelohmann-silverstripe/geoform": "2.*",
                 "andrelohmann-silverstripe/extendedobjects": "2.*",
+				"andrelohmann/php-facedetection": "0.1.*",
                 "andrelohmann-silverstripe/dependentdropdownfield": "2.*",
                 "andrelohmann-silverstripe/email_verified_member": "2.*",
                 "andrelohmann-silverstripe/bootstrap_social_connect": "2.*",
