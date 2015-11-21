@@ -1,7 +1,7 @@
 <?php
 
 global $project;
-$project = 'app_config';
+$project = 'app';
  
 global $database;
  
@@ -11,8 +11,6 @@ require_once("conf/ConfigureFromEnv.php");
 Config::inst()->update('Email', 'admin_email', ADMIN_EMAIL);
 
 Config::inst()->update('GDBackend', 'default_quality', 100);
-
-Controller::add_extension('AppControllerExtension');
 
 Config::inst()->update('RootURLController', 'default_homepage_link', 'home');
 
