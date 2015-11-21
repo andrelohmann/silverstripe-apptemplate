@@ -1,5 +1,5 @@
 ---
-Name: app_config
+Name: app
 After: 'framework/*'
 ---
 # YAML configuration for SilverStripe
@@ -11,3 +11,7 @@ SSViewer:
 Member:
   extensions:
     - VisitsMemberExtension
+
+Controller:
+  extensions:
+    - AppControllerExtension

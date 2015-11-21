@@ -1,6 +1,6 @@
 # Silverstripe App Template - (c) Andre Lohmann (and others) 2015
 
-## Silverstripe Version 3.1.13
+## Silverstripe Version 3.2.1
 
 ## Maintainer Contact 
  * Andre Lohmann
@@ -67,7 +67,6 @@ Feel free to modify the app_* Folders to your needs.
 /debug.log
 /silverstripe.log
 /vendor
-/composer.lock
 .DS_Store
 ```
 
@@ -217,38 +216,38 @@ Feel free to modify the app_* Folders to your needs.
             }
 	],
 	"require": {
-		"php": ">=5.3.2",
+		"php": ">=5.4.*",
 		"composer/installers": "*",
                 "php-ffmpeg/php-ffmpeg": "0.6.0",
-                "silverstripe/framework": "3.2.0-rc1",
+                "silverstripe/framework": "3.2.0",
                 "unclecheese/betterbuttons":"1.2.8",
-                "andrelohmann-silverstripe/framework-fixes": "3.2.0-rc1",
-                "andrelohmann-silverstripe-themes/bootstrap": "4.0.0",
-                "andrelohmann-silverstripe/smtpmailer": "2.0.0",
-                "andrelohmann-silverstripe/geoip": "2.0.0",
-                "andrelohmann-silverstripe/localegeoip": "2.0.0",
-                "andrelohmann-silverstripe/geoform": "2.0.0",
-                "andrelohmann-silverstripe/extendedobjects": "2.0.0",
-                "andrelohmann-silverstripe/dependentdropdownfield": "2.0.0",
-                "andrelohmann-silverstripe/email_verified_member": "2.0.0",
-                "andrelohmann-silverstripe/bootstrap_social_connect": "2.0.0",
-                "andrelohmann-silverstripe/bootstrap_extra_fields": "2.0.0",
-                "andrelohmann-silverstripe/bootstrap-tagfield": "1.0.0",
-                "andrelohmann-silverstripe/bootstrap_navbar_languageform": "2.0.0",
-                "andrelohmann-silverstripe/bootstrap_navbar_loginform": "2.0.0",
-                "andrelohmann-silverstripe/gridfieldextensions": "2.0.0",
-                "andrelohmann-silverstripe/legacyfields": "2.0.0",
-                "andrelohmann-silverstripe/mobile_detector": "2.0.0",
-                "andrelohmann-silverstripe/session_extender": "2.0.0",
-                "andrelohmann-silverstripe/gua-cookie-policy": "1.0.0",
-                "andrelohmann-silverstripe/shariff": "1.0.0",
-                "andrelohmann-silverstripe/minify": "1.0.0",
-                "andrelohmann-silverstripe/bootstrap_backtotop_button": "1.0.0",
-                "andrelohmann-silverstripe/vimeo_video": "2.0.1",
-                "andrelohmann-silverstripe/benchmark": "1.0.0",
-                "andrelohmann-silverstripe/bootstrap_orderable_frontend": "1.0.0",
-                "andrelohmann-silverstripe/googlesitemaps": "2.0.0",
-                "andrelohmann-silverstripe/translatable-dataobject": "1.0.0"
+                "andrelohmann-silverstripe/framework-fixes": "3.2.0",
+                "andrelohmann-silverstripe-themes/bootstrap": "4.*",
+                "andrelohmann-silverstripe/smtpmailer": "2.*",
+                "andrelohmann-silverstripe/geoip": "2.*",
+                "andrelohmann-silverstripe/localegeoip": "2.*",
+                "andrelohmann-silverstripe/geoform": "2.*",
+                "andrelohmann-silverstripe/extendedobjects": "2.*",
+                "andrelohmann-silverstripe/dependentdropdownfield": "2.*",
+                "andrelohmann-silverstripe/email_verified_member": "2.*",
+                "andrelohmann-silverstripe/bootstrap_social_connect": "2.*",
+                "andrelohmann-silverstripe/bootstrap_extra_fields": "2.*",
+                "andrelohmann-silverstripe/bootstrap-tagfield": "1.*",
+                "andrelohmann-silverstripe/bootstrap_navbar_languageform": "2.*",
+                "andrelohmann-silverstripe/bootstrap_navbar_loginform": "2.*",
+                "andrelohmann-silverstripe/gridfieldextensions": "2.*",
+                "andrelohmann-silverstripe/legacyfields": "2.*",
+                "andrelohmann-silverstripe/mobile_detector": "2.*",
+                "andrelohmann-silverstripe/session_extender": "2.*",
+                "andrelohmann-silverstripe/gua-cookie-policy": "1.*",
+                "andrelohmann-silverstripe/shariff": "1.*",
+                "andrelohmann-silverstripe/minify": "1.*",
+                "andrelohmann-silverstripe/bootstrap_backtotop_button": "1.*",
+                "andrelohmann-silverstripe/vimeo_video": "2.*",
+                "andrelohmann-silverstripe/benchmark": "1.*",
+                "andrelohmann-silverstripe/bootstrap_orderable_frontend": "1.*",
+                "andrelohmann-silverstripe/googlesitemaps": "2.*",
+                "andrelohmann-silverstripe/translatable-dataobject": "1.*"
 	},
         "scripts": {
             "post-install-cmd": [
@@ -268,7 +267,7 @@ Feel free to modify the app_* Folders to your needs.
 
  * rename app_* folders to your preferences
  * check README Files of installed modules
- * set configuration in _ss_environment.php, .htaccess, app_config/_config.php
+ * set configuration in _ss_environment.php, .htaccess, app/_config.php
  * checkin to new repository
 
 ### Installation of the newly created project
@@ -298,7 +297,7 @@ php framework/cli-script.php dev/build flush 1
 In Ubuntu 14.04 install the following Packages
 
 ```
-apt-get install libapache2-mod-php5 php5-cli php5-curl php5-gd php5-imagick php5-mcrypt php5-tidy php5-xcache php5-geoip geoip-bin php5-mysql mysql-server-5.6 mysql-client-5.6 mysql-server-core-5.6 mysql-client-core-5.6 php5-redis redis-server phpmyadmin libfaac0 libfaac-dev libx264-dev libx264-142 x264 libav-tools mcrypt
+apt-get install libapache2-mod-php5 php5-cli php5-curl php5-gd php5-imagick php5-mcrypt php5-tidy php5-geoip geoip-bin php5-mysql mysql-server-5.6 mysql-client-5.6 mysql-server-core-5.6 mysql-client-core-5.6 php5-redis redis-server phpmyadmin libfaac0 libfaac-dev libx264-dev libx264-142 x264 libav-tools mcrypt
 ```
 Activate rewrite and mcrypt modules
 
@@ -307,6 +306,11 @@ php5enmod mcrypt
 a2enmod rewrite
 service apache2 restart
 ```
+
+##### MongoDB
+If MongoDB is necessary (as caching backend e.g.) install the following ways:
+ * http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
+ * http://docs.mongodb.org/ecosystem/drivers/php/
 
 #### Apache vHost Example:
 

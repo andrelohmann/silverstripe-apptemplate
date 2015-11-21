@@ -37,15 +37,15 @@ define('SS_DEFAULT_ADMIN_PASSWORD', '__PASSWORD__');
 //define('SS_SEND_ALL_EMAILS_FROM','');
 
 // To be able to use opcode for manifest files define one of the following
-//define('SS_MANIFESTCACHE', 'ManifestCache_File_PHP'); // on xcache installation, this might be faster
+define('SS_MANIFESTCACHE', 'ManifestCache_File_PHP'); // on zend opcache installation, this might be faster
 //define('SS_MANIFESTCACHE', 'ManifestCache_APC');
 
 // if varnish stays in front and geoip is used, this variable will read the geolocation from x-forwarded-for
 //define('GEOIP_SERVER_VAR', 'HTTP_X_FORWARDED_FOR');
 
-// geoform needs a UDF (mysql user defined function) to be created
+// geolocation needs a UDF (mysql user defined function) to be created
 // either create this function manually or on each /dev/build
-//define('GEOFORM_CREATE_GEODISTANCE_UDF', true);
+//define('CREATE_GEODISTANCE_UDF', true);
 
 // Self Defined Variables
 // Admin Email Address (From)
@@ -83,7 +83,9 @@ $_FILE_TO_URL_MAPPING['__ABSOLUTEPATH__'] = 'http://__DOMAIN__';
 //define('FACEBOOK_APP_SECRET','YOUR_FACEBOOK_APP_SECRET');
 //define('FACEBOOK_REDIRECT_URL','YOUR_FACEBOOK_REDIRECT_URL'); // http://YOURDOMAIN/facebook/auth
 //define('FACEBOOK_SCOPE','YOUR_FACEBOOK_SCOPE'); // email,user_about_me,user_birthday
+//define('FACEBOOK_FIELDS','YOUR_FACEBOOK_FIELDS'); // https://graph.facebook.com/me?fields= eg: id,name,email
 //define('FACEBOOK_SIGNUP_PATH','facebook/signup'); // change for custom signup page
+//define('FACEBOOK_EMAILEXISTS_PATH','facebook/emailexists'); // change for custom emailexists page
 //define('FACEBOOK_ERROR_PATH','facebook/error');
 
 //define('GOOGLE_CLIENT_ID','YOUR_GOOGLE_CLIENT_ID');
@@ -91,6 +93,7 @@ $_FILE_TO_URL_MAPPING['__ABSOLUTEPATH__'] = 'http://__DOMAIN__';
 //define('GOOGLE_REDIRECT_URL','YOUR_GOOGLE_REDIRECT_URL'); // http://YOURDOMAIN/google/auth
 //define('GOOGLE_SCOPE','YOUR_GOOGLE_SCOPE'); // https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
 //define('GOOGLE_SIGNUP_PATH','google/signup'); // change for custom signup page
+//define('GOOGLE_EMAILEXISTS_PATH','google/emailexists'); // change for custom emailexists page
 //define('GOOGLE_ERROR_PATH','google/error');
 
 //define('TWITTER_CONSUMER_KEY','YOUR_TWITTER_CONSUMER_KEY');
@@ -110,6 +113,7 @@ $_FILE_TO_URL_MAPPING['__ABSOLUTEPATH__'] = 'http://__DOMAIN__';
 define('SESSIONID','PHPSESSID');
 define('SESSIONLIFETIME',(60*60*2)); // two hours
 // if redis should be used for Session Savepath
+// https://github.com/phpredis/phpredis#php-session-handler
 //define('SESSIONSAVEHANDLER', 'redis');
 //define('SESSIONSAVEPATH', 'tcp://127.0.0.1:6379?prefix=mySessionPrefix');
 // if memcached should be used for Session Savepath
@@ -159,3 +163,10 @@ define('SESSIONLIFETIME',(60*60*2)); // two hours
 //    )
 //)));
 //define('MINIFY_CACHE_LIFETIME', -1); // Lifetime in seconds, -1 for unlimited
+
+// Silverstripe behind ReverseProxy (nginx e.g.)
+//define('SS_TRUSTED_PROXY_IPS', 'IP_1,IP_2,IP_3,...');
+// Additionals, see framework/core/startup/ParameterConfirmationToken.php
+// HTTP_X_FORWARDED_FOR
+// HTTP_X_FORWARDED_HOST
+// HTTP_X_FORWARDED_PROTO/HTTP_X_FORWARDED_PROTOCOL = https

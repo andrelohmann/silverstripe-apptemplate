@@ -9,17 +9,17 @@ class AppControllerExtension extends Extension {
             // Set Requirements for all custom Controllers
             if(!in_array($url[0], array('admin', 'dev', 'interactive'))){
 		
-				Requirements::css("themes/bootstrap/css/bootstrap/cosmo/bootstrap.min.css");
+				Requirements::css("themes/bootstrap/css/bootstrap/paper/bootstrap.min.css");
 				//Requirements::css("//netdna.bootstrapcdn.com/bootswatch/3.3.5/paper/bootstrap.min.css");
 				
 				// http://daneden.github.io/animate.css/
 				Requirements::css("themes/bootstrap/css/animate/animate.min.css");
-				//Requirements::css("//cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.min.css");
+				//Requirements::css("//cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css");
 				Requirements::css("themes/bootstrap/css/animate/animationdelay.css");
 				
 				//http://fortawesome.github.io/Font-Awesome/
 				Requirements::css("themes/bootstrap/css/font-awesome/css/font-awesome.min.css");
-				//Requirements::css("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+				//Requirements::css("//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 				
 				//https://useiconic.com/open/
 				Requirements::css("themes/bootstrap/css/open-iconic/css/open-iconic-bootstrap.min.css");
@@ -30,7 +30,7 @@ class AppControllerExtension extends Extension {
 				//Requirements::css("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 				
 				// App CSS
-				Requirements::css("app_config/css/app.css");
+				Requirements::css("app/css/app.css");
                     
 				// Load JQuery From bootstap theme
 					Requirements::block(FRAMEWORK_DIR . '/thirdparty/jquery/jquery.js');
