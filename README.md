@@ -108,10 +108,6 @@ Feel free to modify the app_* Folders to your needs.
         "repositories": [
             {
                 "type": "vcs",
-                "url": "https://github.com/andrelohmann/silverstripe-framework-fixes"
-            },
-            {
-                "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-themes-bootstrap"
             },
             {
@@ -132,10 +128,6 @@ Feel free to modify the app_* Folders to your needs.
             },
             {
                 "type": "vcs",
-                "url": "https://github.com/andrelohmann/silverstripe-bootstrap_extra_fields"
-            },
-            {
-                "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-bootstrap-tagfield"
             },
             {
@@ -148,27 +140,11 @@ Feel free to modify the app_* Folders to your needs.
             },
             {
                 "type": "vcs",
-                "url": "https://github.com/andrelohmann/silverstripe-extendedobjects"
-            },
-			{
-				"type": "vcs",
-				"url": "https://github.com/andrelohmann/php-facedetection"
-			},
-            {
-                "type": "vcs",
-                "url": "https://github.com/andrelohmann/silverstripe-geoform"
-            },
-            {
-                "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-geoip"
             },
             {
                 "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-gridfieldextensions"
-            },
-            {
-                "type": "vcs",
-                "url": "https://github.com/andrelohmann/silverstripe-legacyfields"
             },
             {
                 "type": "vcs",
@@ -200,10 +176,6 @@ Feel free to modify the app_* Folders to your needs.
             },
             {
                 "type": "vcs",
-                "url": "https://github.com/andrelohmann/silverstripe-vimeo_video"
-            },
-            {
-                "type": "vcs",
                 "url": "https://github.com/andrelohmann/silverstripe-benchmark"
             },
             {
@@ -220,19 +192,22 @@ Feel free to modify the app_* Folders to your needs.
             }
 	],
 	"require": {
-		"php": ">=5.4.*",
+		"php": ">=5.4",
 		"composer/installers": "*",
                 "php-ffmpeg/php-ffmpeg": "0.6.0",
-                "silverstripe/framework": "3.2.0",
+                "silverstripe/framework": "3.2.1",
                 "unclecheese/betterbuttons":"1.2.8",
-                "andrelohmann-silverstripe/framework-fixes": "3.2.0",
+                "andrelohmann-silverstripe/framework-errorpage-patch": "3.2.1",
+                "andrelohmann-silverstripe/cache-backends": "1.*",
+                "andrelohmann-silverstripe/extended-file": "1.*",
+                "andrelohmann-silverstripe/extended-image": "1.*",
+                "andrelohmann-silverstripe/extended-date": "1.*",
                 "andrelohmann-silverstripe-themes/bootstrap": "4.*",
                 "andrelohmann-silverstripe/smtpmailer": "2.*",
                 "andrelohmann-silverstripe/geoip": "2.*",
                 "andrelohmann-silverstripe/localegeoip": "2.*",
+                "andrelohmann-silverstripe/geolocation": "1.*",
                 "andrelohmann-silverstripe/geoform": "2.*",
-                "andrelohmann-silverstripe/extendedobjects": "2.*",
-				"andrelohmann/php-facedetection": "0.1.*",
                 "andrelohmann-silverstripe/dependentdropdownfield": "2.*",
                 "andrelohmann-silverstripe/email_verified_member": "2.*",
                 "andrelohmann-silverstripe/bootstrap_social_connect": "2.*",
@@ -248,6 +223,7 @@ Feel free to modify the app_* Folders to your needs.
                 "andrelohmann-silverstripe/shariff": "1.*",
                 "andrelohmann-silverstripe/minify": "1.*",
                 "andrelohmann-silverstripe/bootstrap_backtotop_button": "1.*",
+                "andrelohmann-silverstripe/mediafiles": "1.*",
                 "andrelohmann-silverstripe/vimeo_video": "2.*",
                 "andrelohmann-silverstripe/benchmark": "1.*",
                 "andrelohmann-silverstripe/bootstrap_orderable_frontend": "1.*",
@@ -256,10 +232,12 @@ Feel free to modify the app_* Folders to your needs.
 	},
         "scripts": {
             "post-install-cmd": [
-                "cp -r vendor/andrelohmann-silverstripe/framework-fixes/* framework/"
+                "cp -r vendor/andrelohmann-silverstripe/framework-fixes/* framework/",
+                "cp -r vendor/andrelohmann-silverstripe/cache-backends/* framework/"
             ],
             "post-update-cmd": [
-                "cp -r vendor/andrelohmann-silverstripe/framework-fixes/* framework/"
+                "cp -r vendor/andrelohmann-silverstripe/framework-fixes/* framework/",
+                "cp -r vendor/andrelohmann-silverstripe/cache-backends/* framework/"
             ]
         },
 	"minimum-stability": "stable"
